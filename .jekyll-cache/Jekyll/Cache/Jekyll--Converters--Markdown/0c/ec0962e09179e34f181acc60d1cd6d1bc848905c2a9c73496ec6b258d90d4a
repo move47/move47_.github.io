@@ -1,4 +1,4 @@
-<!-- ---
+I"Ê<!-- ---
 layout: post
 title:  "Selected for GSoC-2016!"
 date:   2016-04-30 14:10:55 +0530
@@ -15,7 +15,7 @@ GSoC, standing for Google Summer of Code, is a program happening once a year bet
 
 I will be working from home for the organization I've been selected for, which is [Mozilla](https://www.mozilla.org/en-US/), the brilliant workforce behind the popular browser [Firefox](https://www.mozilla.org/en-US/firefox/new/).
 More specifically, I will be working with the [Engineering Productivity](https://wiki.mozilla.org/EngineeringProductivity) team. Our major goal is to improve the testing infrastructure for Firefox and other Mozilla products through several tools and services aimed at improving the overall productivity of engineers in Mozilla.
-![firefox]({{ site.url }}/assets/firefox.jpg)
+![firefox](https://martiansideofthemoon.github.io/assets/firefox.jpg)
 
 ## What's my Project?
 
@@ -33,3 +33,4 @@ You can read more about my project in my proposal [here](http://home.iitb.ac.in/
 This is going to be exciting 3 months for me. Through this GSoC, I hope to understand Mozilla's CI system through and through. I hope to make some great new friends and guides. I handle a repository in Mozilla (a test results filtering system, [Web Platform Tests Results Viewer](https://github.com/mozilla/wptview)) and I hope to get some newcomers involved in this project, and take it forward.
 
 In short, I hope to use this platform to establish myself as an awesome **a-teamer** (a-team is the nickname for Mozilla's Engineering Productivity). -->
+:ET

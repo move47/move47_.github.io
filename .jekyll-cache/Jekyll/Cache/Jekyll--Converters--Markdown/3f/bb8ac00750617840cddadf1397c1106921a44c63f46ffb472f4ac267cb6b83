@@ -1,0 +1,101 @@
+I"�,<p>This blogpost has a list of all patches and pull requests that were merged for the success of the GSoC project. There is also a <a href="https://wiki.mozilla.org/ReleaseEngineering/TryServer#How_to_push_to_try">developer’s guide</a> on using this new feature. Besides this, a <a href="/2016/07/20/how-i-added-tc-jobs.html">technical blog</a> has been added.</p>
+
+<p>This feature is <strong>COMPLETE</strong> and <strong>WORKING</strong>. There are a few follow up bugs which I will mention in this blogpost and were not strictly a part of the project.</p>
+
+<h2 id="taskcluster">TaskCluster</h2>
+
+<p>TaskCluster is a graph based test scheduler which is at the heart of Mozilla’s Continuous Integration. My major work in this GSoC project was in the <code class="language-plaintext highlighter-rouge">taskcluster</code> part of <a href="https://dxr.mozilla.org/mozilla-central/source/">mozilla-central</a>.</p>
+
+<p>My job was to implement Action Tasks which will do the job of scheduling new jobs. I also needed to improve the TaskGraph optimization that was being used.</p>
+
+<p>All my TaskCluster work was recorded in <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1281062">Bug 1281062</a>. This was broken down into four different patches finally -</p>
+
+<ul>
+  <li><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1284005">Bug 1284005</a> (<a href="https://hg.mozilla.org/mozilla-central/rev/7e73e9581bca">Patch</a>) - This is the first bug. This refactors the timestamp mechanism used in <code class="language-plaintext highlighter-rouge">TaskGraph</code> generation. Now instead of actual timestamps, <code class="language-plaintext highlighter-rouge">relative-datestamps</code> are used which are replaced with actual timestamps when the tasks are actually created.</li>
+  <li><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1285755">Bug 1285755</a> (<a href="https://hg.mozilla.org/mozilla-central/rev/b1a86b2b81ff">Patch</a>) - This is the second bug. This adds a feature to build a <code class="language-plaintext highlighter-rouge">TaskGraph</code> object from a corresponding JSON file, taking care of the special cases for various <code class="language-plaintext highlighter-rouge">Task</code> subclasses. This feature also utilized <a href="https://github.com/djmitche">Dustin</a>’s <a href="https://hg.mozilla.org/mozilla-central/rev/2393f903d0a7">patch</a> to find python modules.</li>
+  <li><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1281062">Bug 1281062</a> (<a href="https://hg.mozilla.org/mozilla-central/rev/d223b3cdee66">Patch</a>) - The final piece of the puzzle which adds action tasks.</li>
+  <li><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1288220">Bug 1288220</a> (<a href="https://hg.mozilla.org/integration/autoland/rev/d05aa8ecdb0b">Patch</a>) - Adding a <code class="language-plaintext highlighter-rouge">from_json</code> implementation for <code class="language-plaintext highlighter-rouge">TestTask</code>, fixing a regression.</li>
+</ul>
+
+<h2 id="treeherder">Treeherder</h2>
+
+<p>Treeherder is Mozilla’s primary testing dashboard. My work here was to enchance the APIs to show TaskCluster jobs, allow the users to select jobs they want to schedule, and finally send these TaskCluster jobs through a Pulse message.</p>
+
+<p>This was primarily tracked on Bugzilla in <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1254325">Bug 1254325</a>, <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1284911">Bug 1284911</a>, <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1282906">Bug 1282906</a> and <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1288053">Bug 1288053</a></p>
+
+<p>Here is the list of pull requests that were merged -</p>
+
+<ul>
+  <li><a href="https://github.com/mozilla/treeherder/pull/1490">PR #1490</a> - This is the primary pull request which adds major components of the feature. This activates the APIs but does not activate the UI.</li>
+  <li><a href="https://github.com/mozilla/treeherder/pull/1625">PR #1625</a> - This fixed a small UI regression arising from the previous PR.</li>
+  <li><a href="https://github.com/mozilla/treeherder/pull/1633">PR #1633</a> - A follow up PR to the previous two, primarily improving the Django code.</li>
+  <li><a href="https://github.com/mozilla/treeherder/pull/1688">PR #1688</a> - The final PR which activates the UI and fixes a UI regression which arises due to the presence of Action Tasks.</li>
+  <li><a href="https://github.com/mozilla/treeherder/pull/1710">PR #1710</a> - Fixing a regression caused by the new <code class="language-plaintext highlighter-rouge">full-task-graph.json</code> format.</li>
+</ul>
+
+<h2 id="mozci">MozCI</h2>
+
+<p>MozCI is a python package that’s utilizes the different parts of Mozilla’s Continuous Integration and connects them together via APIs. Originally, my work here was to add functions to schedule all TaskCluster jobs requested, resolving dependencies and fixing task references.</p>
+
+<p>However, since we decided to use Action Tasks, the work here reduced substantially.</p>
+
+<p>Here is the list of pull requests we used -</p>
+
+<ul>
+  <li><a href="https://github.com/mozilla/mozilla_ci_tools/pull/480">PR #480</a> - Fetching the full tasks file. We backed out these changes in a latter PR.</li>
+  <li><a href="https://github.com/mozilla/mozilla_ci_tools/pull/486">PR #486</a> (CLOSED) - This Pull Request contains the method originally proposed in the GSoC proposal. We didn’t merge this due to less reliability and sustainability.</li>
+  <li><a href="https://github.com/mozilla/mozilla_ci_tools/pull/489">PR #489</a> - This patch allows us to schedule action tasks, which perform all the magic in-tree.</li>
+  <li><a href="https://github.com/mozilla/mozilla_ci_tools/pull/490">PR #490</a> - A small fix to removing an old TODO.</li>
+  <li><a href="https://github.com/mozilla/mozilla_ci_tools/pull/491">PR #491</a> - A final refactoring of “schedule_action_task”, to allow it to have a <code class="language-plaintext highlighter-rouge">dry_run</code> feature.</li>
+  <li><a href="https://github.com/mozilla/mozilla_ci_tools/pull/495">PR #495</a> - Fixing a regression caused by the new <code class="language-plaintext highlighter-rouge">full-task-graph.json</code> format.</li>
+</ul>
+
+<h2 id="pulse-actions">Pulse Actions</h2>
+
+<p>Pulse Actions is a project which utilizes the MozCI functions on RabbitMQ based Pulse messages. My work here was to identify the TaskCluster requests in the pulse messages and utilize the MozCI library to schedule the action tasks.</p>
+
+<p>Here is the list of pull requests we used -</p>
+
+<ul>
+  <li><a href="https://github.com/mozilla/pulse_actions/pull/82">PR #82</a> - The primary patch here, which reads pulse messages and sends the data over to MozCI.</li>
+  <li><a href="https://github.com/mozilla/pulse_actions/pull/104">PR #104</a> - Fixing a spelling mistake in the Pulse message.</li>
+  <li><a href="https://github.com/mozilla/pulse_actions/pull/107">PR #107</a> - Fixing a regression caused by the new <code class="language-plaintext highlighter-rouge">full-task-graph.json</code> format.</li>
+</ul>
+
+<p>Having done this, Pulse Actions was granted the correct scopes through <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1286843">Bug 1286843</a>.</p>
+
+<h2 id="taskcluster-scheduler-experiments">TaskCluster Scheduler Experiments</h2>
+
+<p>Here is the list of pull requests we used -</p>
+
+<p>This is mostly an experimental repository which was used for all the experimentation and testing. It was an important part of the project as it has python scripts to quickly schedule action tasks.</p>
+
+<ul>
+  <li><a href="https://github.com/armenzg/TC_developer_scheduling_experiments/pull/2">PR #2</a> - The original implementation which was backed out due to less reliability and sustainability.</li>
+  <li><a href="https://github.com/armenzg/TC_developer_scheduling_experiments/pull/3">PR #3</a> - The logic actually used in MozCI to schedule Action Tasks.</li>
+  <li><a href="https://github.com/armenzg/TC_developer_scheduling_experiments/pull/4">PR #4</a> - Adding command line arguments to the schedule_action_task.py script.</li>
+</ul>
+
+<h2 id="follow-up-bugs">Follow-Up Bugs</h2>
+
+<p>Here are the bugs that have been filed as a follow up. None of them are necessary for the feature to work, but will improve the code and speed.</p>
+
+<ul>
+  <li><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1288028">Bug 1288028</a> - We need to speed up the first step where we get a list of all possible jobs by clicking “Add New Jobs”.</li>
+  <li><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1286894">Bug 1286894</a> - The current feature only works for the try repository (where it is really needed). This bug hopes to assess the risks involved with extending this feature to non-try repositories. It should be fairly straightforward to fix.</li>
+  <li><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1286813">Bug 1286813</a> - This is the bug to improve the <code class="language-plaintext highlighter-rouge">TaskGraph</code> optimizations when more than one Action Task is scheduled.</li>
+  <li><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1286897">Bug 1286897</a> - This is the bug to fix a wrong naming convention in Treeherder’s python files. This is a good-first-bug for beginners.</li>
+</ul>
+
+<h2 id="non-gsoc-work">Non GSoC Work</h2>
+
+<p>I added a number of features outside of the GSoC project during the GSoC period. I will hyperlink them below.</p>
+
+<ul>
+  <li><strong>Treeherder</strong> - <a href="https://github.com/mozilla/treeherder/pull/1645">PR #1645</a>, <a href="https://github.com/mozilla/treeherder/pull/1646">PR #1646</a> and <a href="https://github.com/mozilla/treeherder/pull/1661">PR #1661</a>.</li>
+  <li><strong>MozCI</strong> - <a href="https://github.com/mozilla/mozilla_ci_tools/pull/469">PR #469</a>, <a href="https://github.com/mozilla/mozilla_ci_tools/pull/470">PR #470</a>, <a href="https://github.com/mozilla/mozilla_ci_tools/pull/473">PR #473</a>, <a href="https://github.com/mozilla/mozilla_ci_tools/pull/475">PR #475</a>, <a href="https://github.com/mozilla/mozilla_ci_tools/pull/477">PR #477</a>, <a href="https://github.com/mozilla/mozilla_ci_tools/pull/482">PR #482</a>, <a href="https://github.com/mozilla/mozilla_ci_tools/pull/483">PR #483</a>, <a href="https://github.com/mozilla/mozilla_ci_tools/pull/484">PR #484</a> and <a href="https://github.com/mozilla/mozilla_ci_tools/pull/485">PR #485</a></li>
+  <li><strong>Pulse Actions</strong> - <a href="https://github.com/mozilla/pulse_actions/pull/73">PR #73</a>, <a href="https://github.com/mozilla/pulse_actions/pull/75">PR #75</a>, <a href="https://github.com/mozilla/pulse_actions/pull/80">PR #80</a>, <a href="https://github.com/mozilla/pulse_actions/pull/84">PR #84</a> and <a href="https://github.com/mozilla/pulse_actions/pull/90">PR #90</a>.</li>
+  <li><strong>Bugzilla</strong> - <a href="https://github.com/mozilla-bteam/bmo/pull/14">PR #14</a></li>
+  <li><strong>WPT Viewer</strong> - <a href="https://github.com/mozilla/wptview/pull/130">PR #130</a>, <a href="https://github.com/mozilla/wptview/pull/131">PR #131</a>, <a href="https://github.com/mozilla/wptview/pull/133">PR #133</a>, <a href="https://github.com/mozilla/wptview/pull/139">PR #139</a>, <a href="https://github.com/mozilla/wptview/pull/140">PR #140</a> and a lot of code review since I’m the maintainer of this project.</li>
+</ul>
+:ET

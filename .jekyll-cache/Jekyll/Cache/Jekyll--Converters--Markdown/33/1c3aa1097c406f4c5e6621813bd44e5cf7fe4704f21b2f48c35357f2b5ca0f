@@ -1,0 +1,166 @@
+I"5?<p>After a month’s work, I’ve finally received my J1 visa and I’m ready to visit <a href="http://www.ttic.edu/">TTIC</a> at the University of Chicago campus. In this blog I’ll try to collect a few resources that helped me through the application process, along with my experience. Unfortunately, a number of seemingly disconnected steps need to be completed to have a successful application.</p>
+
+<p>For details on urgent J-1 visa requests, refer to the <a href="#emergency">Emergency Appointment</a> section written by <a href="https://yashkant.github.io/">Yash Kant</a>.</p>
+
+<h2 id="j-1-visa">J-1 Visa</h2>
+
+<p>The <a href="https://j1visa.state.gov/">J-1 Visa</a> to the United States is a non-immigrant short term visa for exchange visits and internships. It is necessary for a person to be supported by a university or organization’s program to be eligible for a J-1 visa. You can read more on <a href="https://en.wikipedia.org/wiki/J-1_visa">Wikipedia</a>.</p>
+
+<p>In my case, I’d been selected in TTIC’s summer <a href="http://www.ttic.edu/visiting-student.php">visiting student’s program</a>. I applied as a J-1 <em>short-term scholar</em> applicant.</p>
+
+<h2 id="preparation">Preparation</h2>
+
+<p>The preparatory steps for the J-1 visa application and somewhat complicated. Here are the essential steps in order -</p>
+
+<ul>
+  <li>
+    <p><strong>DS-2019 / DS-7002 and SEVIS Registration</strong> - This step has to be completed by your sponsor, and they generally ask you to fill up an internal information form. To assist them, you will need to provide a <strong>bank statement</strong>, as proof of your personal funds. Your sponsor must register on <a href="https://egov.ice.gov/sevis/">SEVIS</a>. While doing so, an unique SEVIS ID is generated which has to be entered by you during all the following steps. (and hence you cannot proceed with your application without a SEVIS ID) Your sponsor will also generate a <strong>DS-2019</strong> document, having your SEVIS and funding details. In case you are travelling under an <em>intern</em> or <em>trainee</em> status, you will also receive a <strong>DS-7002</strong> document, which is a training plan. <em>These documents will be couriered to you and are needed for the interview!</em>.</p>
+
+    <p>In my case, TTIC was having issues with the SEVIS portal which delayed this by 2-3 weeks. I finally received my SEVIS ID on 20th April and my DS-2019 arrived on 25th April by Fedex.</p>
+  </li>
+  <li>
+    <p><strong>SEVIS Fee (I901)</strong> - Having received a SEVIS ID and program code (sent along with SEVIS ID, also mentioned on DS-2019), you need to fill the <strong>SEVIS registration fee</strong> of 220$ <a href="https://studyinthestates.dhs.gov/2019/05/sevp-announces-changes-to-program-fees">here</a> for the given SEVIS ID. You will need a credit card to complete this payment, and it generally completes immediately. A <strong>SEVIS fee receipt</strong> will be generated which might be needed for the interview. Most sponsors ask us to pay this ourselves, and reimburse the 180$ with the receipt.</p>
+
+    <p>This step was extremely smooth in my case, and I did it on 21st April, the day after I received my SEVIS ID.</p>
+  </li>
+  <li>
+    <p><strong>DS-160</strong> - Having generated a SEVIS ID, one can go ahead and fill up the non-immigrant visa application form, the <strong>DS-160</strong> <a href="https://ceac.state.gov/genniv/">here</a>. This is a very long form with a few confusing fields and takes up to an hour to complete. Luckily, the portal allows you to save the half-complete versions locally and on its server (upto 30 days). This <a href="http://www.immihelp.com/visas/ds-160-usa-visa-form-guide.html">guide</a> is quite useful. In general, try to stick to information given on your passport as far as possible. Here are some confusing fields and my responses -</p>
+
+    <ol>
+      <li>
+        <p><em>National Identification Number, U.S. Social Security Number, U.S. Taxpayer ID Number</em> - I filled “DOES NOT APPLY” for each of them.</p>
+      </li>
+      <li>
+        <p><em>Address where you will stay in the U.S.</em> - I filled in my institute’s address since I did not have a confirmed accomadation at the moment I was filling the form.</p>
+      </li>
+      <li>
+        <p><em>Family Information</em> - I stuck to the name of my parents given on the back cover of my passport rather than theirs.</p>
+      </li>
+      <li>
+        <p><em>Relationship to You</em> (US Contact Information) - I filled this as “OTHER”. Under the <em>Travel Information</em> section, I filled “HOST INSTITUTION”.</p>
+      </li>
+      <li>
+        <p><em>Do you intend to study in the U.S.?</em> - I filled “YES”, since I’m a short term scholar. I filled my course of study as “COMPUTER SCIENCE”.</p>
+      </li>
+    </ol>
+
+    <p>I finished my DS-160 form on 21st April (The SEVIS ID is needed to complete it). Make sure you double-check all your details, since you will not be allowed to edit this form again. A <strong>DS-160 confirmation</strong> page will be generated, which must be carried to the interview. A <strong>DS-160 confirmation number</strong> is mentioned in the confirmation page which is used in the next step.</p>
+  </li>
+  <li>
+    <p><strong>MRV Fee</strong> - Finally, with a completed DS-160 and SEVIS ID, you can go ahead and book your appointment. <a href="http://www.ustraveldocs.com/in/">This</a> is the Indian portal to book VISA appointments. (Yeah I know, there are too many different portals, all of which are necessary to go through). After filling in some information, you will be asked to <strong>pay a MRV fee</strong> of 160$, (converted to INR), using a <em>NEFT transfer</em>. <em>This payment only completes in the time mentioned <a href="https://en.wikipedia.org/wiki/National_Electronic_Funds_Transfer">here</a></em>. Every applicant has a <strong>Unique Beneficiary Account Number</strong> in the Bank of America, which is used to identify the applicant. Once the MRV fee is received, (an email is sent as confirmation), you can go ahead and book your VISA appointment.</p>
+
+    <p>In my case, 22nd April was the fourth Saturday of the month and the earliest my NEFT payment could be completed was Monday morning. I initiated my payment of 10880 INR on Sunday, 23rd April in the morning. It was received on 24th April at 10:00AM.</p>
+  </li>
+  <li>
+    <p><strong>VISA Appointment</strong> - Having completed the MRV fee payment, you can book your VISA appointment. The VISA appointment needs a biometric registration at a Visa Application Center, followed by an interview at a US Consulate. The biometrics are done on weekends as well, and cannot be done on the same day as the interview. There is generally a 15-20 day waiting period at the Mumbai US Consulate. Once the appointment is booked, an <strong>appointment letter</strong> is generated which contains the MRV fee receipt.</p>
+
+    <p>I booked my appointments on 24th April. The earliest appointment I was getting was 12th May. I finally settled for a 14th May biometrics at 1:30PM and a 15th May appointment at 9:00AM. The 9:00AM slot is recommended for the interview, since the processing is generally completed on the same day by afternoon. (in Mumbai)</p>
+  </li>
+</ul>
+
+<p><em>Note - In case you make a mistake during any of the payment steps, feel free to call the customer care service mentioned on the website, they are very helpful.</em></p>
+
+<p><a name="emergency"></a></p>
+<h2 id="emergency-appointment">Emergency Appointment</h2>
+
+<p>(credits - <a href="https://yashkant.github.io/">Yash Kant</a>)</p>
+
+<ul>
+  <li>
+    <p><strong>Emergency visa (eligibility)</strong> - To apply for an emergency appointment you need to book a regular appointment first, then check the eligibility criteria <a href="https://www.ustraveldocs.com/in/in-niv-expeditedappointment.asp">here</a>. Essentially, you are eligible when the start date of your program (as mentioned on DS-2019) is within 60 days and you haven’t been refused a visa within last 6 months. If you’re eligible, proceed to below point to book an emergency appointment.</p>
+  </li>
+  <li>
+    <p><strong>Emergency visa (application)</strong> - Raise an emergency appointment request <a href="https://cgifederal.secure.force.com/">here</a>, you need to attach DS-2019 as your supporting document. You can attach up to five supporting documents, I attached my DS-2019, and additionally the SEVIS fee receipt, regular appointment confirmation, and offer letter. Next, you are required to briefly explain your situation in words, try to write this in 3-4 sentences, here’s <a href="https://gist.github.com/yashkant/d281772dfb5b5448404f36aa719ec6a9">mine</a>. After this, the consulate will review your request and get back to you within 48 hours. Once it is approved (yay!) you need to login <a href="https://cgifederal.secure.force.com/">here</a> again and book new VAC and interview appointments. This time you will find closer dates available for interview appointment.</p>
+  </li>
+</ul>
+
+<h2 id="documents">Documents</h2>
+
+<p>From 24th April to 14th May, I collected the documents that could be potentially needed for the biometrics / interview. In this section I’ll list all these documents, along with a reason for carry it. I’ve added a <em>(Biometrics / Interview / Collection)</em> for all documents that were actually used in the whole process. The official checklist is given <a href="https://j1visa.state.gov/participants/how-to-apply/interviews-documents/">here</a>.</p>
+
+<ul>
+  <li>
+    <p><strong>Passport</strong> <em>(Biometrics + Interview)</em> - Make sure the passport is valid for atleast 6 months after your intended travel. The passport is needed for both biometrics and interview.</p>
+  </li>
+  <li>
+    <p><strong>DS-2019</strong> <em>(Interview)</em> - This should arrive by courier before your interview date. Make sure interviews are scheduled accordingly. This must be signed with the date and venue of the interview on the bottom of the front side.</p>
+  </li>
+  <li>
+    <p><strong>DS-7002</strong> - I did not receive this since I was a <em>short-term scholar</em>.</p>
+  </li>
+  <li>
+    <p><strong>SEVIS I-901 Confirmation</strong> <em>(Interview)</em> - While not asked for by the interview officer, I was asked to show this while queuing for the interview.</p>
+  </li>
+  <li>
+    <p><strong>DS-160 Confirmation</strong> <em>(Biometrics + Collection)</em> - This is just two pages, not the entire DS-160 entries. It need not be a color printout.</p>
+  </li>
+  <li>
+    <p><strong>Appointment Letter</strong> <em>(Biometrics + Collection)</em> - Make sure the barcode is clearly visible. Read the instructions given carefully.</p>
+  </li>
+  <li>
+    <p><strong>Alternate ID Proof (with Xerox)</strong> <em>(Collection)</em> - This is needed to collect your passport. Use a government ID card, such as a Aadhar Card / PAN Card.</p>
+  </li>
+  <li>
+    <p><strong>Bank Statement / Income Tax Returns</strong> - Make sure the statement reflects the personal funds value mentioned in the DS-2019. This document is a proof of personal funds, could be asked for the interview.</p>
+  </li>
+  <li>
+    <p><strong>Institute Offer Letter / DS-2019 information form</strong> - This is a proof of the other information given on the DS-2019, including sponsor’s funds.</p>
+  </li>
+  <li>
+    <p><strong>Bonafide Certificate, Transcripts, 10th/12th Marksheets and Pass Certificates, CV / Resume</strong> - This is a proof of academic credentials, often asked for in the VISA needs additional processing.</p>
+  </li>
+  <li>
+    <p><strong>Air Tickets</strong> - Proof of travel to the USA.</p>
+  </li>
+  <li>
+    <p><strong>Contract of Sublease</strong> - Proof of stay in the USA.</p>
+  </li>
+  <li>
+    <p><strong>(2x2 inches) Photograph</strong> - This wasn’t needed, but is listed in the official checklist.</p>
+  </li>
+</ul>
+
+<h2 id="interview-preparation">Interview Preparation</h2>
+
+<p>Most of the interview questions are pretty standard. With the above documents, you have a proof of nearly everything that could be asked for. <a href="https://www.internationalstudent.com/immigration/j1-student-visa/j1-visa-interview/">Here</a> is a list of common questions. When asked about which project you are working on, <strong>try not to</strong> use any term mentioned in the <a href="http://www.bu.edu/isso/files/pdf/tal.pdf">Technlogical Alert List</a>, since this is the most common reason for a <a href="https://redbus2us.com/the-beast-called-221g-process-faqs/">221(g)</a>. Luckily, J-1’s are rarely put on hold.</p>
+
+<h2 id="biometrics">Biometrics</h2>
+
+<p>Finally, on the day of biometrics I had to visit the VFS Application Center. <em>Do not arrive more than 30 minutes before the appointment time</em>, they do not permit entry. The biometrics were pretty smooth, and only the <strong>DS-160 Confirmation</strong>, <strong>Appointment Letter</strong> and <strong>Passport</strong> was needed. It took me 10 minutes for the whole procedure, and I was out of the centre before 1:30PM, my scheduled appointment time!</p>
+
+<h2 id="interview">Interview</h2>
+
+<p>Unlike the biometrics, I recommend you to arrive earlier than your scheduled time, especially if you are in the first slot for the day. There is a huge queue for the interview, (roughly 400 people per slot), and it works on a first-come-first-serve basis. Several people managed to leave the Consulate before 9:00AM, while I had to wait for nearly 1 hour 30 minutes since I arrived at 8:45AM, and was behind in the queue.</p>
+
+<p>Only my <strong>Passport</strong> and <strong>DS-2019</strong> was needed, though I was told to keep my <strong>SEVIS Confirmation</strong> in hand at the venue. After a long queue and biometric check, I finally had my interview with the consulate officer. Here is how it went,</p>
+
+<p><strong>Me</strong>: <em>“Good morning!”</em><br />
+<strong>Officer</strong>: <em>“Morning. Can I have your I-20 please?”</em><br />
+<strong>Me</strong>: <em>“I’m a J-1 applicant, do you mean DS-2019?”</em><br />
+<strong>Officer</strong>: <em>“Yes, DS.”</em><br />
+<em>(I hand in DS-2019 and passport)</em><br />
+<strong>Officer</strong>: <em>“So, are you a student? Which year are you in?”</em><br />
+<strong>Me</strong>: <em>“Yes, I’m a senior undergraduate studying here at Mumbai.”</em><br />
+<strong>Officer</strong>: <em>“What’s your project on?”</em><br />
+<strong>Me</strong>: <em>“Natural Language Processing.”</em><br />
+<strong>Officer</strong>: <em>“Sorry, what?”</em><br />
+<strong>Me</strong>: <em>“Computer algorithms to analyse language and text.”</em><br />
+<strong>Officer</strong>: <em>“Wow! How long will you be in the US?”</em><br />
+<strong>Me</strong>: <em>“8 weeks.”</em><br />
+<strong>Officer</strong>: <em>“Who is funding this trip?”</em><br />
+<strong>Me</strong>: <em>“TTIC is paying, and some personal funds.”</em><br />
+<strong>Officer</strong>: <em>“Have you received a copy of your fundamental rights in US?”</em><br />
+<strong>Me</strong>: <em>“No”</em><br />
+<strong>Officer</strong>: <em>“Here you go! Congratulations, you can head straight to the exit.”</em><br />
+<strong>Me</strong>: <em>“Thank you!”</em></p>
+
+<h2 id="tracking">Tracking</h2>
+
+<p>(credits - <a href="https://yashkant.github.io/">Yash Kant</a>)</p>
+
+<p>If you choose to get the passport delivered, you can track your passport as mentioned <a href="https://www.ustraveldocs.com/in/in-niv-passporttrack.asp">here</a>. The easiest alternative is sending an email to <a href="mailto:passportstatus@ustraveldocs.com">passportstatus@ustraveldocs.com</a> with your passport number as subject and body.</p>
+
+<h2 id="collection">Collection</h2>
+
+<p>My visa was processed on the same day (within 3 hours). I needed my <strong>Aadhar Card</strong> and <strong>its xerox copy</strong> to collect my visa at the Visa Application Center. I also needed to show my <strong>Appointment Letter</strong> and <strong>DS-160 Confirmation</strong> as a proof. Quite happy to get back my visa on the same day!</p>
+:ET

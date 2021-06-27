@@ -1,0 +1,30 @@
+I"w<p>A month has elapsed since I started my GSoC project. It’s been a great learning experience and I’ve learnt several aspects about Mozilla’s Testing infrastructure.
+This week I saw the new <a href="https://en.wikipedia.org/wiki/The_Angry_Birds_Movie">Angry Birds Movie</a>, and I can’t seem to get Peter Dinklage’s <a href="https://www.youtube.com/watch?v=hxBsM1QOZbE">Mighty Eagle</a> song out of my head. So I had very little choice while I chose my theme.</p>
+
+<p><img src="https://martiansideofthemoon.github.io/assets/eagle.jpg" alt="eagle" /></p>
+
+<p>Getting back to work, this is how it’s been last week :-</p>
+
+<h2 id="mozci-tools--pulse-actions">MozCI Tools / Pulse Actions</h2>
+
+<p>Now that I’m done with the first two parts of my GSoC project, I need to prepare MozCI Tools to receive the modified Pulse messages and parse them appropriately.
+This is seeming difficult since I don’t have the required TaskCluster scopes to publish to Treeherder. Armen might need to make a <a href="https://wiki.mozilla.org/Security/Risk_management/Rapid_Risk_Assessment">Rapid Risk Assessment</a> before I can make any progress.</p>
+
+<p>In the meantime, I’ve done some preparatory work in <a href="https://github.com/mozilla/mozilla_ci_tools/pull/480">this</a> Pull Request to download the latest full-tasks-graph.json file from the TC Index. I’ve also started work on parsing the new Pulse Messages in <a href="https://github.com/mozilla/pulse_actions/pull/82">this</a> Pull Request.</p>
+
+<p>Armen has assigned two bugs to me, related to MozCI. In the <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1274483">first one</a> I need to handle nightly builders in MozCI. I also need to check some special properties of the Android nightly builds. In the <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1276914">second one</a> I need to remove the MozCIError which is raised when a non existing builder is passed.</p>
+
+<h2 id="photometric-redshifts">Photometric Redshifts</h2>
+
+<p>I’ve started a <a href="https://github.com/martiansideofthemoon/Photometric-Redshifts">project</a> where I will estimate redshifts of galaxies in the <a href="www.sdss.org">SDSS database</a> using machine learning. I’ve implemented the <a href="https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm#k-NN_regression">kNN regression</a> algorithm and got a fairly decent result. I hope to move to a Neural Network soon.</p>
+
+<p><img src="https://martiansideofthemoon.github.io/assets/knn_regression.png" alt="knn" /></p>
+
+<h2 id="other-news">Other News</h2>
+
+<p>We are starting the third <a href="https://wiki.mozilla.org/Auto-tools/New_Contributor/Quarter_of_Contribution/Summer_2016">Quarter of Contribution</a> on Monday, 4th June. <a href="https://github.com/nihal111">nihal111</a> and <a href="https://github.com/arpan98">arpan98</a> will be helping <a href="https://github.com/jgraham">jgraham</a> and me hack <a href="https://github.com/mozilla/wptview">wptview</a>. Congratulations!</p>
+
+<h2 id="coming-up">Coming Up!</h2>
+
+<p>This week I hope to address the issues pointed out on my Treeherder <a href="https://github.com/mozilla/treeherder/pull/1490">pull request</a>. I also hope to solve the two bugs assigned to me Armen. If the security issue is resolved, I will proceed with scheduling TC jobs. I may not be able to blog next week, since I’m off to <a href="https://twitter.com/hashtag/mozlondon">#mozlondon</a>!</p>
+:ET

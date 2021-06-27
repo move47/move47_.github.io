@@ -1,30 +1,26 @@
----
-layout: page
----
-{% include JB/setup %}
+I"”
+<p><img style="float: right; width: 35%; padding: 7px;" src=" https://martiansideofthemoon.github.io/assets/go.jpg" /></p>
 
-<img style="float: right; width: 35%; padding: 7px;" src=" {{ site.url }}/assets/move.png">
+<p>My name is Kalpesh Krishna, and I am a <del>second</del> third year PhD student in Computer Science at <a href="http://cs.umass.edu/">UMass Amherst</a> advised by Prof. <a href="https://people.cs.umass.edu/~miyyer/">Mohit Iyyer</a>. I do my PhD research in natural language processing. I also co-organize the <a href="https://umass-mlfl.github.io/">Machine Learning and Friends Lunch</a>.</p>
 
-My name is Kalpesh Krishna, and I am a ~~second~~ third year PhD student in Computer Science at [UMass Amherst](http://cs.umass.edu/) advised by Prof. [Mohit Iyyer](https://people.cs.umass.edu/~miyyer/). I do my PhD research in natural language processing. I also co-organize the [Machine Learning and Friends Lunch](https://umass-mlfl.github.io/).
+<p>I received my undergraduate degree at <a href="http://iitb.ac.in">IIT Bombay</a>. In the past, Iâ€™ve spent some excellent summers at <a href="https://research.google/teams/brain">Google Brain</a> (Summer 2020), <a href="https://ai.google/research/teams/language/">Google AI Language</a> (Summer 2019), <a href="https://www.ttic.edu/">Toyota Technological Institute at Chicago</a> (Summer 2017) and <a href="https://www.mozilla.org/en-US/">Mozilla</a> (Summer 2016).</p>
 
-I received my undergraduate degree at [IIT Bombay](http://iitb.ac.in). In the past, I've spent some excellent summers at [Google Brain](https://research.google/teams/brain) (Summer 2020), [Google AI Language](https://ai.google/research/teams/language/) (Summer 2019), [Toyota Technological Institute at Chicago](https://www.ttic.edu/) (Summer 2017) and [Mozilla](https://www.mozilla.org/en-US/) (Summer 2016).
+<p>I maintain a list of my publications and research implementations under the <a href="https://martiansideofthemoon.github.io/research">Research</a> tab. I also <a href="https://martiansideofthemoon.github.io/archive">blog</a> every now and then compiling my personal experiences.</p>
 
-I maintain a list of my publications and research implementations under the [Research]({{ site.url }}/research) tab. I also [blog]({{ site.url }}/archive) every now and then compiling my personal experiences.
+<p>CV / Resume: <a href="https://martiansideofthemoon.github.io/assets/cv.pdf">link</a><br />
+Email ID: <a href="mailto:kalpesh@cs.umass.edu">kalpesh@cs.umass.edu</a></p>
 
-CV / Resume: [link]({{ site.url }}/assets/cv.pdf)  
-Email ID: [kalpesh@cs.umass.edu](mailto:kalpesh@cs.umass.edu)
-
-#### Updates
+<h4 id="updates">Updates</h4>
 
 <div style="height:250px;overflow:auto;">
 <table>
-<col width="100px">
-<col width="630px">
+<col width="100px" />
+<col width="630px" />
 <tr><td><b>May 2021:</b></td><td>talk at <a href="https://research.google/">Google Research</a> on long-form question answering (<a href="https://docs.google.com/presentation/d/1kkl0fGbhEqWnUDkcSbFsDWIKnojlR_HFiCvhAhXW2Uk/edit?usp=sharing">slides</a>)</td></tr>
 <tr><td><b>Mar 2021:</b></td><td>new <a href="https://arxiv.org/abs/2103.06332">paper</a> on longform question answering on <a href="https://arxiv.org/abs/1907.09190">ELI5</a> to appear in NAACL 2021! Read more in our <a href="https://ai.googleblog.com/2021/03/progress-and-challenges-in-long-form.html">Google AI blogpost</a>.</td></tr>
 <tr><td><b>Dec 2020:</b></td><td>passed my <a href="https://www.cics.umass.edu/grads/phd-portfolio">PhD candidacy</a> with distinction!</td></tr>
 <tr><td><b>Sep 2020:</b></td><td>new <a href="https://arxiv.org/abs/2010.05700">paper</a> on paraphrasing for unsupervised style transfer to appear at EMNLP 2020. Check out a live demo and the codebase <a href="http://style.cs.umass.edu">here</a>.</td></tr>
-<tr><td><b>Sep 2020:</b></td><td>I am excited to share a new bird photography webpage! Check the <a href="{{ site.url }}/birding">Birding</a> tab.</td></tr>
+<tr><td><b>Sep 2020:</b></td><td>I am excited to share a new bird photography webpage! Check the <a href="https://martiansideofthemoon.github.io/birding">Birding</a> tab.</td></tr>
 <tr><td><b>May 2020:</b></td><td>started my summer internship at <a href="https://research.google/teams/brain/">Google Brain</a>, where I will be working with <a href="https://sites.google.com/site/royaurko">Aurko Roy</a></td></tr>
 <tr><td><b>Apr 2020:</b></td><td>talk at <a href="https://www.research.ibm.com/">IBM research</a> on model extraction attacks on BERT (<a href="https://docs.google.com/presentation/d/1emJb07ER8Gje6PGauIU--t0DCgvECJlnjVQfv9rOUkM/edit">slides</a>)</td></tr>
 <tr><td><b>Apr 2020:</b></td><td>new <a href="http://www.cleverhans.io/2020/04/06/stealing-bert.html">blogpost</a> with <a href="https://www.papernot.fr">Nicolas Papernot</a> on our ICLR 2020 paper on model extraction attacks on BERT.</td></tr>
@@ -44,3 +40,5 @@ Email ID: [kalpesh@cs.umass.edu](mailto:kalpesh@cs.umass.edu)
 <tr><td><b>Jul 2018:</b></td><td> new <a href="https://arxiv.org/abs/1807.06234">preprint</a> on hierarchical multitask learning for speech recognition</td></tr>
 <tr><td><b>Jun 2018:</b></td><td> new blogs on <a href="2018/05/29/grad-resources.html">grad resources</a>, <a href="2018/06/04/cs-opportunities.html">IIT Bombay CS opportunities</a> and <a href="2018/06/05/crowd-sourcing.html">crowdsourcing</a></td></tr>
 <tr><td><b>Apr 2018:</b></td><td> presented <a href="https://arxiv.org/abs/1710.10398">paper</a> on CNNs for end-to-end speech recognition at ICASSP 2018 (<a href="https://sigport.org/sites/default/files/docs/study-convolutional-encoders.pdf">poster</a>)</td></tr>
+</table></div>
+:ET

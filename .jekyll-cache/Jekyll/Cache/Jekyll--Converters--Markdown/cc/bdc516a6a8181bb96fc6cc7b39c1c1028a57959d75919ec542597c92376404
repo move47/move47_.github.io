@@ -1,0 +1,51 @@
+I"�<p>Outlining my non-published projects here (open source contributions, course research projects, designed homeworks). My research work can be seen <a href="/research/">here</a>.</p>
+
+<h4 id="other-research-course-projects"><strong>Other Research (Course Projects)</strong></h4>
+
+<p><a href="https://github.com/martiansideofthemoon/pointnet-acd-deformations">Self-supervised Learning on 3D Point Clouds</a>: New algorithms for self-supervised learning on point clouds, where we teach models to discriminate between real and fake objects. To create fake objects, we perform global perturbations to segments of an object derived from <a href="https://arxiv.org/abs/2003.13834">Approximate Convex Decomposition</a> (<a href="https://martiansideofthemoon.github.io/assets/point_cloud_discriminate.pdf">report</a>).</p>
+
+<p><a href="https://github.com/martiansideofthemoon/mixmatch-lxmert">MixMatch on Vision + Language Tasks (NLVR2)</a>: An attempt to integrate the <a href="https://arxiv.org/abs/1905.02249">MixMatch</a> data augmentation algorithm for semi-supervised image classification to the challenging setting of <a href="http://lil.nlp.cornell.edu/nlvr">NLVR2</a>, where the input space has both images and text (<a href="https://sumanvid97.github.io/docs/cv_report.pdf">report</a>).</p>
+
+<p><a href="https://github.com/martiansideofthemoon/research-exchange">Research Exchange - A Collaborative Paper Annotation Tool</a> - A platform to collaboratively annotate scientific literature to help newcomers understand research papers, built during an Human Computer Interaction course project (<a href="https://martiansideofthemoon.github.io/assets/research-exchange.pdf">report</a>).</p>
+
+<p><a href="https://github.com/TheShadow29/infnet-spen">Inference Networks for Structured Prediction</a> - A TensorFlow implementation for the multi-label classification experiments in <a href="https://arxiv.org/abs/1803.03376">Learning Approximate Inference Networks for Structured Prediction</a>. Also contains experiments on the <a href="http://cistern.cis.lmu.de/figment/">FIGMENT</a> dataset and a extension to Inference Network training algorithm based on <a href="https://arxiv.org/abs/1704.00028">Wasserstein GANs</a> (<a href="https://people.cs.umass.edu/~kalpesh/infnet.pdf">report</a>).</p>
+
+<p><a href="http://github.com/martiansideofthemoon/diversity-sampling">Diversity Sampling in Machine Learning</a> - An implementation of <a href="https://arxiv.org/abs/1610.02424">Diverse Beam Search for Neural Networks</a> in Language Modelling. Also contains the original (slightly modified code) for the interactive segmentation experiments in <a href="http://ttic.uchicago.edu/~gregory/papers/MBestModes.pdf">Diverse M-Best Solutions in MRFs</a> (<a href="https://people.cs.umass.edu/~kalpesh/diversity.pdf">report</a>).</p>
+
+<p><a href="https://github.com/martiansideofthemoon/macro-action-rl">Macro Actions in Reinforcement Learning</a> - A suite of five algorithms (including ideas from “<a href="https://arxiv.org/abs/1702.06054">Learning to Repeat: Fine Grained Action Repetition for Deep Reinforcement Learning</a>”) encouraging agents to repeat actions (<a href="https://people.cs.umass.edu/~kalpesh/macro.pdf">report</a>).</p>
+
+<p><a href="https://github.com/martiansideofthemoon/blind-dehazing">Single Image Haze Removal</a> - An implementation of He et al. 2009, “<a href="https://www.robots.ox.ac.uk/~vgg/rg/papers/hazeremoval.pdf">Single Image Haze Removal using Dark Channel Prior</a>” and an ongoing implementation of Bahat &amp; Irani 2016, “<a href="http://ieeexplore.ieee.org/document/7492870/">Blind Dehazing using Internal Patch Recurrence</a>” (<a href="https://people.cs.umass.edu/~kalpesh/dehaze.pdf">report</a>).</p>
+
+<p><a href="https://github.com/martiansideofthemoon/tf-sentence-classification">CNNs for Sentence Classification</a> - A TensorFlow 1.1 implementation of Kim 2014, “<a href="https://arxiv.org/abs/1408.5882">Convolutional Neural Networks for Sentence Classification</a>”.</p>
+
+<p><a href="https://github.com/martiansideofthemoon/brittle-fracture-simulation">Brittle Fracture Simulation</a> - Python implementation of O’Brien and Hodgins 1999, “<a href="http://graphics.berkeley.edu/papers/Obrien-GMA-1999-08/Obrien-GMA-1999-08.pdf">Graphical Modeling and Animation of Brittle Fracture</a>”.</p>
+
+<p><a href="https://github.com/martiansideofthemoon/ecg-analysis">ECG Signal Analysis</a> - Python implementation of parts of Christopher Buck, Aneesh Sampath 2013, “<a href="https://cnx.org/contents/VZtarYnV@2.1:WO1d4SJW@1/Introduction">ECG Signal Analysis for Myocardial Infarction Detection.</a>”.</p>
+
+<h4 id="course-materials"><strong>Course Materials</strong></h4>
+
+<p><a href="https://github.com/martiansideofthemoon/allennlp-probe-hw">Homework</a> on linguistic probe tasks designed for UMass Amherst’s grad NLP class using <a href="https://allennlp.org/">AllenNLP</a>.</p>
+
+<h4 id="open-source-contributions"><strong>Open Source Contributions</strong></h4>
+
+<ul>
+  <li>Primary Contributor / Maintainer - <a href="https://github.com/mozilla/wptview">mozilla/wptview</a></li>
+  <li>Significant Contributions - <a href="https://github.com/mozilla/gecko-dev/">mozilla/gecko-dev</a> (Firefox), <a href="https://github.com/mozilla/treeherder">mozilla/treeherder</a>, <a href="https://github.com/mozilla/mozilla_ci_tools">mozilla/mozilla_ci_tools</a></li>
+  <li>Other Contributions - <a href="https://github.com/mozilla-b2g/gaia/">mozilla-b2g/gaia</a> (Firefox OS), <a href="https://github.com/mozilla-bteam/bmo">mozilla-bteam/bmo</a> (Bugzilla), <a href="https://github.com/rust-lang-nursery/rust-clippy">rust-lang-nursery/rust-clippy</a>, <a href="https://github.com/arslanbilal/git-cheat-sheet">arslanbilal/git-cheat-sheet</a>, <a href="https://github.com/servo/servo">servo/servo</a>, <a href="https://github.com/w3c/web-platform-tests">w3c/web-platform-tests</a>, <a href="https://github.com/sunpy/sunpy">sunpy/sunpy</a>, <a href="https://github.com/taskcluster/taskcluster-client.py/graphs/contributors">taskcluster/taskcluster-client</a>, <a href="https://github.com/saketkc/fos-proposals">saketkc/fos-proposals</a>, <a href="https://github.com/mozilla/geckodriver">mozilla/geckodriver</a>, <a href="https://github.com/mozilla/pulse_actions">mozilla/pulse_actions</a></li>
+</ul>
+
+<h4 id="indian-language-datasets"><strong>Indian Language Datasets</strong></h4>
+
+<p>As a part of my RnD project at <a href="http://www.iitb.ac.in/">IIT Bombay</a>, I am releasing the dataset used to train my neural network language models. These have been mined from Wikipedia and I hope this will help further research in language modelling for Indian morphologically rich languages. The folder also contains the original PTB dataset.</p>
+
+<ul>
+  <li>Malayalam (denoted by <code class="language-plaintext highlighter-rouge">ml</code>)</li>
+  <li>Tamil (denoted by <code class="language-plaintext highlighter-rouge">ta</code>)</li>
+  <li>Kannada (denoted by <code class="language-plaintext highlighter-rouge">kn</code>)</li>
+  <li>Telugu (denoted by <code class="language-plaintext highlighter-rouge">te</code>)</li>
+  <li>Hindi (denoted by <code class="language-plaintext highlighter-rouge">hi</code>)</li>
+  <li>PTB (denoted by <code class="language-plaintext highlighter-rouge">ptb</code>)</li>
+</ul>
+
+<p>All these datasets are compatible with <a href="http://www.speech.sri.com/projects/srilm/">SRILM</a>. Files marked with <code class="language-plaintext highlighter-rouge">unk</code> have replaced all singletons with <code class="language-plaintext highlighter-rouge">&lt;unk&gt;</code> tokens. Files marked with <code class="language-plaintext highlighter-rouge">char</code> are character versions. All datasets have a <code class="language-plaintext highlighter-rouge">train</code>, <code class="language-plaintext highlighter-rouge">valid</code> and <code class="language-plaintext highlighter-rouge">test</code> file. You will find the dataset <a href="https://drive.google.com/file/d/0B5Y_SiDYwIObaE52dmZ0YVFXckU/view?usp=sharing">here</a>.</p>
+:ET

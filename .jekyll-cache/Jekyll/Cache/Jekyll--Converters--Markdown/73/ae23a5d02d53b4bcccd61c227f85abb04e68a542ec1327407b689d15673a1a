@@ -1,0 +1,38 @@
+I"a<p>It’s been a really hectic week, and unfortunately I could not do too much GSoC work, but I guess I’m on track. At the end of this week, I gifted a friend my favourite fantasy story, <a href="http://www.alagaesia.com/books_detail.php?book=eragon">Eragon</a>, the first book of the Inheritance Cycle. With sweet memories, I’ll dedicate this week’s theme to Saphira, the main dragon in the Inheritance Cycle.</p>
+
+<p><img src="https://martiansideofthemoon.github.io/assets/saphira.jpg" alt="saphira" /></p>
+
+<p>Getting back to work, this is how it’s been last week :-</p>
+
+<h2 id="pulse-actions">Pulse Actions</h2>
+
+<p>Yes! We have finally merged the <a href="https://github.com/mozilla/pulse_actions/pull/73">Pull Request</a> which now schedules two Talos jobs for completed PGO builds in mozilla-inbound and fx-team. I got to learn a bit of <a href="https://dashboard.heroku.com/apps">Heroku</a> and PaperTrail, so it was a great week in this repsect. Here is a screenshot from Treeherder showing what I achieved :-</p>
+
+<p><img src="https://martiansideofthemoon.github.io/assets/talos.png" alt="talos" /></p>
+
+<p>As you can see, all Talos jobs (marked with a <strong>T</strong> and <strong>T-e10s</strong>) have been completed twice. This has been done to reduce the time taken to get Talos alerts to half. We listen to build completions on a Pulse exchange, and trigger Talos downstream jobs accordingly.</p>
+
+<h2 id="work-on-mozilla-central">Work on mozilla-central</h2>
+
+<p><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1232005">Bug 1232005</a> has been re-opened to allow us to generate all_tasks.json in all branches, not just <a href="treeherder.mozilla.org/#/jobs?repo=try">try</a>. There is some ongoing discussion about the best way to do this.</p>
+
+<h2 id="work-on-treeherder">Work on Treeherder</h2>
+
+<p>Now that we’ve generated <strong>all_tasks.json</strong> it’s time to use it in Treeherder! I’ve been working this week to begin integrating this with Treeherder and it’s been a daunting task due to Treeherder’s huge codebase!
+You can track my progress in this <a href="https://github.com/mozilla/treeherder/pull/1490">Pull Request</a>.</p>
+
+<p>So far, I’ve managed to procure the correct URL to <strong>all_tasks.json</strong> in the Treeherder UI on pressing “Add New Jobs”. I’m sending this data to Treeherder’s <a href="https://treeherder.mozilla.org/docs/#!/project/Runnable_Jobs_list">runnable_jobs</a> API which will fetch the file subsequently.
+I’m having a hard time setting up Treeherder’s vagrant environment, but I hope to achieve some success in the beginning of next week. Once this is done, I can start hacking the Django APIs.</p>
+
+<h2 id="other-news">Other News</h2>
+
+<p>I had a great interview, and I’ve been selected for the <a href="http://cargillglobalscholars.com">Cargill Scholarship</a>!</p>
+
+<p>We have decided to launch a third <a href="https://wiki.mozilla.org/Auto-tools/New_Contributor/Quarter_of_Contribution">Quarter of Contribution</a> and I’ve found five excellent contributors from my college for this program. This QoC, we hope to achieve major refactoring of <a href="https://github.com/mozilla/wptview">WPT Results Viewer</a> and <a href="https://wiki.mozilla.org/EngineeringProductivity/Projects/Perfherder">Perfherder</a> improvements. Hackers are invited!</p>
+
+<h2 id="coming-up">Coming up!</h2>
+
+<p>Besides Pull Requests named after dragons in the Inheritance Cycle, I hope to complete my Treeherder Pull Request and get a review by the end of the next week. This patch will download and parse all_tasks.json and return a list of all TaskCluster jobs that can be scheduled in the repository.</p>
+
+<p>I also intend to do extensive work on MozCI, where I will refactor the unit tests and remove the mock allthethings.json file. We have filed an <a href="https://github.com/mozilla/mozilla_ci_tools/issues/474">issue</a> for this.</p>
+:ET
