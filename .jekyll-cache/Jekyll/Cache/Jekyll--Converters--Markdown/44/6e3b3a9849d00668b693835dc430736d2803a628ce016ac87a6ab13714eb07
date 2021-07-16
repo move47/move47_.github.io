@@ -1,4 +1,4 @@
-I"s	<p><img src="../assets/resources/CandH_Teaching.jpg" alt="Image" /></p>
+I"	<p><img src="../assets/resources/CandH_Teaching.jpg" alt="Image" /></p>
 <h2 id="security">Security</h2>
 <ul>
   <li><a href="https://www.youtube.com/channel/UCLlw-K3hvGx94l1POd0k2sw/playlists">Symmetric Key Crypto</a>: One-hour Summary by Dan Boneh</li>
@@ -23,15 +23,11 @@ Fall 2019</a>, Raluca Ada Popa, UC Berkeley</li>
 </ul>
 
 <h2 id="others">Others</h2>
-<blockquote>
-  <blockquote>
-    <ul>
-      <li><a href="https://blog.cryptographyengineering.com/useful-cryptography-resources/">Useful Cryptography Resources</a>, A comprehensive list for crypto</li>
-      <li><a href="https://www.csa.iisc.ac.in/~cris/mpc_resources.html">Useful Resources on MPC</a> Maintanied by Cris Lab IISC</li>
-      <li><a href="https://github.com/sindresorhus/awesome">Awesome list</a> A place for all kinds of interesting topics</li>
-      <li><a href="https://web.engr.oregonstate.edu/~rosulekm/scbib/">An Annotated Bibliography of Practical Secure Computation</a> Mike Rosulek OSU</li>
-      <li><a href="http://web.engr.oregonstate.edu/~rosulekm/advising.html">Some Graduate Advices</a></li>
-    </ul>
-  </blockquote>
-</blockquote>
+<ul>
+  <li><a href="https://blog.cryptographyengineering.com/useful-cryptography-resources/">Useful Cryptography Resources</a>, A comprehensive list for crypto</li>
+  <li><a href="https://www.csa.iisc.ac.in/~cris/mpc_resources.html">Useful Resources on MPC</a> Maintanied by Cris Lab IISC</li>
+  <li><a href="https://github.com/sindresorhus/awesome">Awesome list</a> A place for all kinds of interesting topics</li>
+  <li><a href="https://web.engr.oregonstate.edu/~rosulekm/scbib/">An Annotated Bibliography of Practical Secure Computation</a> Mike Rosulek OSU</li>
+  <li><a href="http://web.engr.oregonstate.edu/~rosulekm/advising.html">Some Graduate Advices</a></li>
+</ul>
 :ET

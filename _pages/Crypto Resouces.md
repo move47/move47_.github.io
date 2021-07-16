@@ -2,7 +2,7 @@
 layout: page
 title: Crypto Resources
 permalink: /crypto_resources/
-order: 2
+order: 6
 ---
 
 ![Image](../assets/resources/CandH_Teaching.jpg)
@@ -25,7 +25,7 @@ Fall 2019](https://inst.eecs.berkeley.edu/~cs294-163/fa19/), Raluca Ada Popa, UC
 - [A few lessons from the history of multiparty computation](https://theorydish.blog/2021/05/26/few-lessons-from-the-history-of-multiparty-computation/), Dima Kogan Stanford
 
 ## Others
->> - [Useful Cryptography Resources](https://blog.cryptographyengineering.com/useful-cryptography-resources/), A comprehensive list for crypto
+- [Useful Cryptography Resources](https://blog.cryptographyengineering.com/useful-cryptography-resources/), A comprehensive list for crypto
 - [Useful Resources on MPC](https://www.csa.iisc.ac.in/~cris/mpc_resources.html) Maintanied by Cris Lab IISC
 - [Awesome list](https://github.com/sindresorhus/awesome) A place for all kinds of interesting topics
 - [An Annotated Bibliography of Practical Secure Computation](https://web.engr.oregonstate.edu/~rosulekm/scbib/) Mike Rosulek OSU
