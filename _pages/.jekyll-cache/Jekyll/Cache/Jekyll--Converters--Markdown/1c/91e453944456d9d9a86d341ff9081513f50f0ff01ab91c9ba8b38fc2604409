@@ -1,0 +1,34 @@
+I"�	<p><img src="../assets/resources/CandH_Teaching.jpg" alt="Image" /></p>
+<h2 id="security">Security</h2>
+<ul>
+  <li><a href="https://www.youtube.com/channel/UCLlw-K3hvGx94l1POd0k2sw/playlists">Symmetric Key Crypto</a>: One-hour Summary by Dan Boneh</li>
+</ul>
+
+<h2 id="courses">Courses</h2>
+<ul>
+  <li><a href="https://inst.eecs.berkeley.edu/~cs294-163/fa19/">CS 294-163: Decentralized Security: Theory and Systems
+Fall 2019</a>, Raluca Ada Popa, UC Berkeley</li>
+  <li><a href="https://sp20.cs161.org/">CS 161: Computer Security</a>, Raluca Ada Popa, UC Berkeley</li>
+  <li><a href="https://www.csa.iisc.ac.in/~vg/teaching/SecurityLectures/">Computer Systems Security</a>, Vinod Ganapathy IISc</li>
+  <li><a href="https://nptel.ac.in/courses/106/106/106106221/">Foundations of Cryptography</a>, Ashish Choudhary NPTEL</li>
+  <li>Differential privacy, Gautam kamath, Bilibili twitter handle</li>
+</ul>
+
+<h2 id="blogs">Blogs</h2>
+<ul>
+  <li><a href="http://blog.cryptographyengineering.com/">A Few Thoughts on Cryptographic Engineering</a>, Blogs by Matthew D. Green, Johns Hopkins University</li>
+  <li><a href="https://www.vpnmentor.com/blog/bitcoin-money-decentralization/">Intro about Bitcoin</a>, <a href="https://www.vpnmentor.com/blog/hash-puzzle-bitcoin/">How Pow works in Bitcoin</a>, Avishay Yanai, Barllan University</li>
+  <li><a href="http://esl.cs.brown.edu/blog/">Crypto Blogs</a>, Semy Kamara Brown University</li>
+  <li><a href="https://theorydish.blog/2021/05/26/few-lessons-from-the-history-of-multiparty-computation/">A few lessons from the history of multiparty computation</a>, Dima Kogan Stanford</li>
+</ul>
+
+<h2 id="others">Others</h2>
+<ul>
+  <li><a href="https://blog.cryptographyengineering.com/useful-cryptography-resources/">Useful Cryptography Resources</a>, A comprehensive list for crypto</li>
+  <li><a href="https://www.csa.iisc.ac.in/~cris/mpc_resources.html">Useful Resources on MPC</a> Maintanied by Cris Lab IISC</li>
+  <li><a href="https://github.com/sindresorhus/awesome">Awesome list</a> A place for all kinds of interesting topics</li>
+  <li><a href="https://web.engr.oregonstate.edu/~rosulekm/scbib/">An Annotated Bibliography of Practical Secure Computation</a> Mike Rosulek OSU</li>
+  <li><a href="http://web.engr.oregonstate.edu/~rosulekm/advising.html">Some Graduate Advices</a></li>
+  <li>Mihir Bellare’s <a href="https://cseweb.ucsd.edu/~mihir/cse209b-Wi21/">course</a> on “Seeing the invisible” at UCSD.</li>
+</ul>
+:ET

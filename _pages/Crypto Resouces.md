@@ -30,3 +30,4 @@ Fall 2019](https://inst.eecs.berkeley.edu/~cs294-163/fa19/), Raluca Ada Popa, UC
 - [Awesome list](https://github.com/sindresorhus/awesome) A place for all kinds of interesting topics
 - [An Annotated Bibliography of Practical Secure Computation](https://web.engr.oregonstate.edu/~rosulekm/scbib/) Mike Rosulek OSU
 - [Some Graduate Advices](http://web.engr.oregonstate.edu/~rosulekm/advising.html)
+- Mihir Bellare's [course](https://cseweb.ucsd.edu/~mihir/cse209b-Wi21/) on "Seeing the invisible" at UCSD. 

@@ -1,4 +1,4 @@
-I"	<p><img src="../assets/resources/CandH_Teaching.jpg" alt="Image" /></p>
+I"�	<p><img src="../assets/resources/CandH_Teaching.jpg" alt="Image" /></p>
 <h2 id="security">Security</h2>
 <ul>
   <li><a href="https://www.youtube.com/channel/UCLlw-K3hvGx94l1POd0k2sw/playlists">Symmetric Key Crypto</a>: One-hour Summary by Dan Boneh</li>
@@ -29,5 +29,6 @@ Fall 2019</a>, Raluca Ada Popa, UC Berkeley</li>
   <li><a href="https://github.com/sindresorhus/awesome">Awesome list</a> A place for all kinds of interesting topics</li>
   <li><a href="https://web.engr.oregonstate.edu/~rosulekm/scbib/">An Annotated Bibliography of Practical Secure Computation</a> Mike Rosulek OSU</li>
   <li><a href="http://web.engr.oregonstate.edu/~rosulekm/advising.html">Some Graduate Advices</a></li>
+  <li>Mihir Bellare’s <a href="https://cseweb.ucsd.edu/~mihir/cse209b-Wi21/">course</a> on “Seeing the invisible” at UCSD.</li>
 </ul>
 :ET
