@@ -18,7 +18,7 @@ Fall 2019](https://inst.eecs.berkeley.edu/~cs294-163/fa19/), Raluca Ada Popa, UC
 - [Foundations of Cryptography](https://nptel.ac.in/courses/106/106/106106221/), Ashish Choudhary NPTEL 
 - Differential privacy, Gautam kamath, Bilibili twitter handle
 - Cryptocurrency class, King's College London. [Link](https://blockchain.kcl.ac.uk/cryptocurrencyclass/)
-- David Wu's [Courses](https://www.cs.virginia.edu/dwu4/teaching.html)
+- David Wu's [Courses](https://www.cs.utexas.edu/~dwu4/teaching.html)
 ## Blogs
 - [A Few Thoughts on Cryptographic Engineering](http://blog.cryptographyengineering.com/), Blogs by Matthew D. Green, Johns Hopkins University
 - [Intro about Bitcoin](https://www.vpnmentor.com/blog/bitcoin-money-decentralization/), [How Pow works in Bitcoin](https://www.vpnmentor.com/blog/hash-puzzle-bitcoin/), Avishay Yanai, Barllan University
