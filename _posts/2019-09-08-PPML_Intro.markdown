@@ -59,7 +59,7 @@ About 2 years ago, Google researchers introduced a Skin disease classifier at th
 an application to take photos of skin, and run it to __CNN(Convolutional Neural Network)__ to intimate about
 your visit to a dermatologist. It was also observed that the accuracy of prediction was an expert level. When the user queries the application, they do not make any changes(e.g.  noise perturbation) to the input skin image. The service provided then takes it for further processing. 
 <p align="center">
-<img src="{{ site.url }}/assets/Blog/PPML/skin_cancer.jpg" />
+<img src="{{ site.url }}/assets/Blog/PPML/skin_cancer.png" />
 </p>
 <p align="center"><i>Figure 3: Skin Cancer Classifier</i></p>
 <br /><br />
