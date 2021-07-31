@@ -1,0 +1,77 @@
+I"À<p>I am broadly interested in Natural Language Processing, Speech Recognition and Machine Learning Security &amp; Privacy.</p>
+
+<p><a href="https://scholar.google.com/citations?hl=en&amp;user=9g2BsMUAAAAJ">Google Scholar profile</a>, <a href="https://www.semanticscholar.org/author/Kalpesh-Krishna/26161085">Semantic Scholar profile</a></p>
+
+<h4 id="selected-papers"><strong>Selected Papers</strong></h4>
+
+<p><a href="https://arxiv.org/abs/2103.06332">Hurdles to Progress in Long-form Question Answering</a><br />
+<em>Kalpesh Krishna</em>, Aurko Roy, Mohit Iyyer<br />
+<strong>NAACL 2021</strong><br />
+<a href="https://ai.googleblog.com/2021/03/progress-and-challenges-in-long-form.html">blog</a> // <a href="https://github.com/martiansideofthemoon/hurdles-longform-qa">code</a> // <a href="/2021/05/06/naacl21.html">project page</a></p>
+
+<p><a href="https://arxiv.org/abs/2010.05700">Reformulating Unsupervised Style Transfer as Paraphrase Generation</a><br />
+<em>Kalpesh Krishna</em>, John Wieting, Mohit Iyyer<br />
+<strong>EMNLP 2020</strong><br />
+<a href="http://style.cs.umass.edu">project page (demo + code + data + video)</a> // <a href="https://www.youtube.com/watch?v=cjnk3PJljDs">external video</a></p>
+
+<p><a href="https://arxiv.org/abs/1910.12366">Thieves on Sesame Street! Model Extraction of BERT-based APIs</a><br />
+<em>Kalpesh Krishna</em>, Gaurav Singh Tomar, Ankur P. Parikh, Nicolas Papernot, Mohit Iyyer<br />
+<strong>ICLR 2020</strong><br />
+<a href="http://www.cleverhans.io/2020/04/06/stealing-bert.html">blog</a> // <a href="/2020/04/04/iclr20.html">project page (code + slides + Twitter + external)</a></p>
+
+<p><a href="https://arxiv.org/abs/1906.02622">Generating Question-Answer Hierarchies</a><br />
+<em>Kalpesh Krishna</em>, Mohit Iyyer<br />
+<strong>ACL 2019</strong><br />
+<a href="http://squash.cs.umass.edu/">project page (demo + code + data)</a> // <a href="https://arxiv.org/pdf/1906.02622.pdf#page=15">technical note</a> // <a href="https://move47.github.io/assets/squash-poster.pdf">poster</a> // <a href="https://towardsdatascience.com/introducing-squash-a-question-answer-generating-system-71c47b478a16">external blog</a></p>
+
+<h4 id="other-papers"><strong>Other Papers</strong></h4>
+
+<p><a href="https://arxiv.org/abs/2103.02537">Weakly-Supervised Open-Retrieval Conversational Question Answering</a><br />
+Chen Qu, Liu Yang, Cen Chen, W. Bruce Croft, <em>Kalpesh Krishna</em> and Mohit Iyyer<br />
+<strong>ECIR 2021</strong></p>
+
+<p><a href="http://arxiv.org/abs/2103.00751">Long Document Summarization in a Low Resource Setting using Pretrained Language Models</a><br />
+Ahsaas Bajaj*, Pavitra Dangati*, <em>Kalpesh Krishna</em>, Pradhiksha Ashok Kumar, Rheeya Uppaal, Bradford Windsor, Eliot Brenner, Dominic Dotterrer, Rajarshi Das and Andrew McCallum<br />
+<strong>ACL Student Research Workshop (SRW) 2021</strong></p>
+
+<p><a href="https://arxiv.org/abs/2102.03718">An Analysis of Frame-skipping in Reinforcement Learning</a><br />
+Shivaram Kalyanakrishnan, Siddharth Aravindan, Vishwajeet Bagdawat, Varun Bhatt, Harshith Goka, Archit Gupta, <em>Kalpesh Krishna</em>, Vihari Piratla<br />
+arXiv 2021</p>
+
+<p><a href="https://joss.theoj.org/papers/10.21105/joss.01832">SunPy: A Python package for Solar Physics</a><br />
+Stuart J. Mumford and others<br />
+<strong>JOSS 2020</strong></p>
+
+<p><a href="https://arxiv.org/abs/1906.02780">Syntactically Supervised Transformers for Faster Neural Machine Translation</a><br />
+Nader Akoury, <em>Kalpesh Krishna</em>, Mohit Iyyer<br />
+<strong>ACL 2019</strong><br />
+<a href="https://github.com/dojoteef/synst">code</a> // <a href="https://people.cs.umass.edu/~nsa/posters/synst-acl2019.pdf">poster</a></p>
+
+<p><a href="https://arxiv.org/abs/1903.07820">Trick or TReAT: Thematic Reinforcement for Artistic Typography</a><br />
+Purva Tendulkar, <em>Kalpesh Krishna</em>, Ramprasaath R. Selvaraju, Devi Parikh<br />
+<strong>ICCC 2019</strong> (<em>oral presentation</em>, <a style="color:red" href="https://twitter.com/jmacunha/status/1142184529026662400"><i>Best Presentation Award</i></a>)<br />
+<a href="https://github.com/purvaten/treat">code</a> // <a href="https://purvaten.github.io/data/TReAT-talk.pdf">slides</a> // <a href="https://photos.google.com/share/AF1QipNFg9TYf2Wk6z6zKg3I3rT7jiWoH97cRVIQ-_JrZwIUUMqkyWHomVc1Lv1UGduraA/photo/AF1QipOm-e6jFA3Im9eiHt79R-A0j36CSVCoqSeU_VZG?key=dDFhdGlYUV9yVkUzOW5YaFlaeXdhMGQ1UHZ0QnZ3">video</a> // <a href="http://doodle.cloudcv.org/">demo</a></p>
+
+<p><a href="https://arxiv.org/abs/1808.07733">Revisiting the Importance of Encoding Logic Rules in Sentiment Classification</a><br />
+<em>Kalpesh Krishna</em>, Preethi Jyothi, Mohit Iyyer<br />
+<strong>EMNLP 2018</strong> <em>(oral presentation, short paper)</em><br />
+<a href="https://github.com/martiansideofthemoon/logic-rules-sentiment/">code + data</a> // <a href="https://move47.github.io/assets/emnlp-2018.pdf">slides</a> // <a href="https://vimeo.com/306136412">video</a></p>
+
+<p><a href="https://arxiv.org/abs/1807.06234">Hierarchical Multitask Learning for CTC-based Speech Recognition</a><br />
+<em>Kalpesh Krishna</em>, Shubham Toshniwal, Karen Livescu<br />
+[<a href="https://www.youtube.com/watch?v=OSpFS8kyibw">external video</a>]<br />
+arXiv 2018</p>
+
+<p><a href="https://arxiv.org/abs/1710.10398">A Study of All-Convolutional Encoders for Connectionist Temporal Classification</a><br />
+<em>Kalpesh Krishna</em>, Liang Lu, Kevin Gimpel, Karen Livescu<br />
+<strong>ICASSP 2018</strong> <em>(Awarded <a href="https://signalprocessingsociety.org/events/sps-travel-grants">SPS Travel Grant</a>)</em><br />
+[<a href="https://sigport.org/sites/default/files/docs/study-convolutional-encoders.pdf">poster</a>]</p>
+
+<p><strong>Main Collaborators</strong> (in order of publication date): <a href="https://ttic.uchicago.edu/~klivescu">Karen Livescu</a>, <a href="https://ttic.uchicago.edu/~kgimpel">Kevin Gimpel</a>, <a href="https://ttic.uchicago.edu/~llu">Liang Lu</a>, <a href="https://ttic.uchicago.edu/~shtoshni">Shubham Toshniwal</a>, <a href="https://www.cse.iitb.ac.in/~pjyothi">Preethi Jyothi</a>, <a href="https://people.cs.umass.edu/~miyyer/">Mohit Iyyer</a>, <a href="http://purvaten.github.io/">Purva Tendulkar</a>, <a href="https://ramprs.github.io/">Ramprasaath R. Selvaraju</a>, <a href="https://www.cc.gatech.edu/~parikh/">Devi Parikh</a>, <a href="https://people.cs.umass.edu/~nsa/">Nader Akoury</a>, <a href="https://scholar.google.com/citations?user=p1SDN0oAAAAJ&amp;hl=en">Gaurav Singh Tomar</a>, <a href="https://www.cs.cmu.edu/~apparikh/publications.html">Ankur P. Parikh</a>, <a href="https://www.papernot.fr/">Nicolas Papernot</a>, <a href="https://www.cs.cmu.edu/~jwieting">John Wieting</a>, <a href="https://sites.google.com/site/royaurko/">Aurko Roy</a></p>
+
+<h4 id="thesis"><strong>Thesis</strong></h4>
+
+<p><a href="https://move47.github.io/assets/bachelor_thesis_final.pdf">Undergraduate Thesis - Constraint Driven Learning</a><br />
+<em>(under guidance of <a href="https://www.cse.iitb.ac.in/~pjyothi/">Prof. Preethi Jyothi</a>)</em><br />
+IIT Bombay <em>(2017-2018)</em></p>
+:ET

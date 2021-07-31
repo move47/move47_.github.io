@@ -8,15 +8,17 @@ layout: page
 <img style="float: left; width: 25%; padding: 15px;" src=" ./assets/move.png" >
 
 
-My name is __Himanshu Goyal__ ([<span style="color:red">How to pronounce my name</span>](./assets/name.mp3)), and I am a fourth year Dual Degree Student in Computer Science at [Indian Institute of Technology Bhubaneswar](https://www.iitbbs.ac.in/). Currently, I am focussing on to bring trust, security and privacy guarantees in large scale decentralized IoT Systems. I am being advised by [Dr. Sudipta Saha](https://www.iitbbs.ac.in/profile-print.php?furl=sudipt). I am also closely associated with [Decentralized and Smart Systems Research Group (DSSRG)](https://sites.google.com/iitbbs.ac.in/dssrg) at IIT Bhubaneswar.
+My name is __Himanshu Goyal__ ([<span style="color:red">How to pronounce my name</span>](./assets/name.mp3)). I am a Dual Degree Student at [Indian Institute of Technology Bhubaneswar](https://www.iitbbs.ac.in/) majoring in Computer Science. Currently, I am focussing to build large scale decentralized IoT/WSNs systems which embodies Trust, Security and Privacy guarantees. I am being advised by [Dr. Sudipta Saha](https://www.iitbbs.ac.in/profile-print.php?furl=sudipt). I am also closely associated with [Decentralized and Smart Systems Research Group (DSSRG)](https://sites.google.com/iitbbs.ac.in/dssrg) at IIT Bhubaneswar.
 
- In the past, I've spent some excellent summers at [TCS Research and Innovation](https://www.tcs.com/research-and-innovation) (Summer 2020), and  at [CNERG IIT Kharagpur](https://cnerg-iitkgp.github.io/) (Summer 2019).
+ <!-- In the past, I've spent some excellent summers at [TCS Research and Innovation](https://www.tcs.com/research-and-innovation) (Summer 2020), and  at [CNERG IIT Kharagpur](https://cnerg-iitkgp.github.io/) (Summer 2019). -->
 
-I have worked on several disciplines ranging from Deep learning, Systems & Networking, Blockchain, Trustworthy distributed computing and Privacy Preserving Machine Learning(PPML). Well, I enjoy applied cryptography in particular.
+I have worked on several disciplines ranging from Deep learning, Systems & Networking, Blockchain, Trustworthy distributed computing and Privacy Preserving Machine Learning(PPML). 
 
-I maintain a list of cryptographic resources under the [Resources]({{ site.url }}/crypto_resources) tab. I also [blog]({{ site.url }}/archive) every now and then compiling my personal experiences.
+                    Verily, I truly enjoy applied cryptography in particular.
 
-Verily, you can find me reading, lurking reddit and twitter in my spare time. Nevertheless, I am big Cricket fan and love talking about it.
+I maintain a list of cryptographic resources under the [Crypto Resources]({{ site.url }}/crypto_resources) tab. It mostly contains references to the courses taught at universities along with some additional useful information. _If you feel to suggest some resources, I welcome you to contact me for the same._ 
+I also occasionally [blog]({{ site.url }}/archive) to distill out my understanding from the readings I do. 
+Well, you can find me reading, lurking reddit and twitter in my spare time. Nevertheless, I am an ardent Cricket fan and love talking about it.
 
 CV / Resume: [link]({{ site.url }}/assets/cv.pdf)  
 Email ID: [hg11@iitbbs.ac.in](mailto:hg11@iitbbs.ac.in)
@@ -34,4 +36,4 @@ Email ID: [hg11@iitbbs.ac.in](mailto:hg11@iitbbs.ac.in)
 <tr><td><b>Sep 2018:</b></td><td> Started Computer Science Coursework</td></tr>
 <tr><td><b>May 2018:</b></td><td> Transferred from 4-year Metallurgical Programme to 5-year Dual Degree(B.tech+M.tech) in Computer Science Engineering(1 out of entire batch).</td></tr>
 <tr><td><b>Jul 2017:</b></td><td> Successfully passed both JEE Main and JEE Advance examinations and secured an admission at <a href="https://www.iitbbs.ac.in/"> IIT Bhubaneswar </a> in its 4-year undergraduate programme in Metallurgical and Materials Engineering.</td></tr>
-<tr><td><b>May 2016:</b></td><td> Got a direct admission offer from <a href="https://www.bits-pilani.ac.in/">BITS-Pilani </a> on the basis of excellent Intermediate studies performance at <a href="https://www.birlaschoolpilani.edu.in/">Birla School Pilani </a>.</td></tr>
+<tr><td><b>May 2016:</b></td><td> Got a direct admission offer from <a href="https://www.bits-pilani.ac.in/">BITS-Pilani </a> on the basis of excellent Intermediate academic performance at <a href="https://www.birlaschoolpilani.edu.in/">Birla School Pilani </a>.</td></tr>

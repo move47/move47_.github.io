@@ -9,17 +9,21 @@
 title: Himanshu Goyal
 full_name: Himanshu Goyal
 email: goyal.himanshu1799@gmail.com
-email2: hg11@iitbbs.ac.in
+email2: hg@iitbbs.ac.in
 description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://martiansideofthemoon.github.io" # the base hostname & protocol for your site
-github_username:  martiansideofthemoon
+url: "https://move47.github.io" # the base hostname & protocol for your site
+# github_username:  move47
+# twitter_username: Himansh1799
+# linkedin_username: himanshu-goyal-7b466b148
+# #stackoverflow: 5080995/martianwars
+github_username:  move47
 twitter_username: Himansh1799
 linkedin_username: himanshu-goyal-7b466b148
-stackoverflow: 5080995/martianwars
+#stackoverflow: 5080995/martianwars
 include: ['_pages']
 footer-links-active:
-  stackoverflow: true
+  stackoverflow: false
 
 # Build settings
 markdown: kramdown

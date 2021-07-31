@@ -1,0 +1,32 @@
+I"i<p>It’s been the busiest week and I can proudly say I’ve completed a significant part of the GSoC project. I can’t wait to meet my fellow Mozillians, since I’m off to London, for the Mozilla <a href="https://wiki.mozilla.org/All_Hands">All-Hands</a>!</p>
+
+<p><img src="https://move47.github.io/assets/mozlondon.jpg" alt="mozlondon" /></p>
+
+<p>Let me describe last week’s work :-</p>
+
+<h2 id="mozci-tools--pulse-actions">MozCI Tools / Pulse Actions</h2>
+
+<p>Armen and Dustin had a Rapid Risk Assessment meeting and agreed to give me TaskCluster credentials for scheduling TaskCluster jobs in the try repository of Treeherder. Once the TaskCluster-Treeherder integration improves, I will be given scopes for the rest of the repositories.</p>
+
+<p>I started immediately, and after a long day of hacking and pinging Dustin, I was finally able to resolve all dependencies (using Depth First Search on the task graph) and schedule some jobs. You can see my results <a href="https://treeherder.mozilla.org/#/jobs?repo=try&amp;revision=22e97582654791575c1b2027802ce3e02cc9366d">here</a>. I’ve written it neatly in this <a href="https://github.com/mozilla/mozilla_ci_tools/pull/486">pull request</a> and added some changes to <a href="https://github.com/mozilla/pulse_actions/pull/82">this</a> to translate pulse messages and schedule tasks.</p>
+
+<p>Having said this, we might decide to <strong>skip</strong> this approach since I’m having to re-write most of <a href="https://dxr.mozilla.org/mozilla-central/source/taskcluster/taskgraph/optimize.py">optimize.py</a>, an in-tree file written by Dustin which does pretty much the same thing and more in a much better fashion. We are going to introduce Action Tasks and schedule them in Pulse Actions, which pass on labels to optimize.py to do all the hard work.</p>
+
+<p>I also fixed the two bugs I’d been given last week, <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1274483">Bug 1274483</a> and <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1276914">Bug 1276914</a>.</p>
+
+<h2 id="treeherder">Treeherder</h2>
+
+<p>I had a few bits and pieces left in my main <a href="https://github.com/mozilla/treeherder/pull/1490">Pull Request</a>, primarily adding timestamps to pulse messages, adding a few comments, and restricting usage to the try repository. I’ve completed that and it’s ready for final review. The bug is <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1254325">1254325</a>.</p>
+
+<h2 id="photometric-redshifts">Photometric Redshifts</h2>
+
+<p>We’ve made a lot of progress here, and the highlight of our work is the first working neural network! Here is the plot we’ve managed to produce (estimated redshift vs actual redshift) :-</p>
+
+<p><img src="https://move47.github.io/assets/first_nn.png" alt="nn" /></p>
+
+<p>There are a few points having a low estimated redshift which are distinctly off the clump of points. These are points having nearly the same value in all five photometric filters. We’ve isolated them in this <a href="https://github.com/martiansideofthemoon/Photometric-Redshifts/blob/0d11f22d8cc58b8aeb89af2afd6ba5358cb76a91/test_codes/basic_nn_kalpesh.py">script</a> and are getting better plots on doing so. I’ll describe the project in detail later on.</p>
+
+<h2 id="coming-up">Coming Up</h2>
+
+<p>New friends, New city, and a lot of fun! I hope to have a lot to write about next week! Till then, see you in London :)</p>
+:ET

@@ -1,0 +1,45 @@
+I"O<p>The next part of the assignment involved adding lighting, textures, motion and cameras to our scene. It has been pretty interesting. The best part is the added realism to the whole scene.</p>
+
+<p>Here is the final output produced in fixed camera mode.</p>
+
+<p><img src="https://move47.github.io/assets/cycle3.png" alt="cycle3" /></p>
+
+<h2 id="annnnddd-lights-off">ANNNNDDD, Lights OFF!</h2>
+
+<p><img src="https://move47.github.io/assets/cycle4.png" alt="cycle4" /></p>
+
+<p>I now go about to describe the basic implementation details. This article reuses the terminology in the previous <a href="/2016/09/28/opengl-cycle.html">article</a>.</p>
+
+<h2 id="the-room">The Room</h2>
+
+<p>The room has been made as a part of the <code class="language-plaintext highlighter-rouge">Assembly.cpp</code> classes, as a <code class="language-plaintext highlighter-rouge">Room</code> class. The <code class="language-plaintext highlighter-rouge">Room</code> class consists of six <code class="language-plaintext highlighter-rouge">Surface</code> objects, each of which produce a mesh of rectangles depending on the amount of detail needed. This has been done to ensure <a href="https://en.wikipedia.org/wiki/Gouraud_shading">Gouraud Shading</a> is successful when light shines on walls.</p>
+
+<p>Additionally, the room consists of a light source. The cycle has been placed at the centre of the room.</p>
+
+<h2 id="lighting">Lighting</h2>
+
+<p>The first step to enable lighting needed us to change every <code class="language-plaintext highlighter-rouge">glColor3f</code> to <code class="language-plaintext highlighter-rouge">glMaterialfv</code>, and assign the same color to the object’s ambient and diffused properties. We have assumed all objects are specular and reflect <code class="language-plaintext highlighter-rouge">(1, 1, 1)</code> as specular reflections.</p>
+
+<p>The second step involved setting up the light sources and their properties. Two light sources have been created. One is fixed to the handle and rotates along with the handle (<code class="language-plaintext highlighter-rouge">GL_LIGHT1</code>). The second light source is present close to the centre of the ceiling (<code class="language-plaintext highlighter-rouge">GL_LIGHT0</code>).</p>
+
+<p>The lighting code has been integrated with the <code class="language-plaintext highlighter-rouge">Assembly.cpp</code> classes.</p>
+
+<h2 id="cameras">Cameras</h2>
+
+<p>Three cameras have been setup, a first person view, a third person view and a fixed view close to the top of the ceiling (as you saw earlier). Here are the first and third person views.</p>
+
+<p><img src="https://move47.github.io/assets/cycle_first.png" alt="cyclefirst" /></p>
+
+<p><img src="https://move47.github.io/assets/cycle_third.png" alt="cyclethird" /></p>
+
+<h2 id="textures">Textures</h2>
+
+<p>We developed a basic API to add textures to a certain section of any of the surfaces. Here we have added a Mona Lisa painting on the wall and a wooden floor texture on the floor.</p>
+
+<p>These images were loaded from bitmap images. Very large images were causing a lot of lag while trying to move the cycle.</p>
+
+<p>Additionally, a striped texture has been added to two cylinders of the frame of the cycle. Here is the texture added for reference. This is quite evident in the first person view.</p>
+
+<p><img src="https://move47.github.io/assets/RedWhiteStripe.jpg" alt="grad" /></p>
+
+:ET

@@ -1,0 +1,49 @@
+I"O<p>It’s been a long time since my GSoC blog series, and I’ve had an exciting week thanks to a Computer Graphics assignment on OpenGL. The assignment involved creating a Paint application which can save / load images in a vector like custom format, without using any of the in-built functionality that OpenGL gives us. This blog describes the algorithms used along with a few screenshots of the results.</p>
+
+<p>The entire project has been hosted on a private repository on Github for now. <strong>All features requested for in the assignment have been completed.</strong></p>
+
+<h2 id="features">Features</h2>
+
+<p>All drawings are done on a 1024 x 640 black canvas.
+This program can draw <strong>lines</strong>, <strong>triangles</strong>, of <strong>any color and thickness</strong>. It has an <strong>eraser</strong> function which paints in the background color. There is a <strong>fill</strong> feature, which emulates any drawing software’s Paint Bucket function. Lastly, there is a feature to save your current drawing. This is saved in a vector format, and can be loaded back into the software to reproduce the painting.</p>
+
+<p>Here’s a painting of stars on a blue backdrop</p>
+
+<p><img src="https://move47.github.io/assets/stars.png" alt="stars" /></p>
+
+<h2 id="plotting-points">Plotting Points</h2>
+
+<p>To plot a single point at <code class="language-plaintext highlighter-rouge">(x, y)</code>, a <code class="language-plaintext highlighter-rouge">point_t</code> object was created having color same as the attribute in <code class="language-plaintext highlighter-rouge">pen_t</code>. This point was then extrapolated depending on the size provided by <code class="language-plaintext highlighter-rouge">pen_t</code>. For <code class="language-plaintext highlighter-rouge">size = 1</code>, a single pixel was plotted. For <code class="language-plaintext highlighter-rouge">size = 2</code>, a <code class="language-plaintext highlighter-rouge">3 x 3</code> grid was plotted with <code class="language-plaintext highlighter-rouge">(x, y)</code> as the centre of the square. In general, for <code class="language-plaintext highlighter-rouge">size = i</code>, a <code class="language-plaintext highlighter-rouge">2i-1 x 2i-1</code> square was plotted centred at <code class="language-plaintext highlighter-rouge">(x,y)</code>.</p>
+
+<h2 id="lines-and-triangles">Lines and Triangles</h2>
+
+<p>To draw lines, the <a href="https://en.wikipedia.org/wiki/Bresenham%27s_line_algorithm">Brensenham Algorithm</a> was used and implemented in all eight octants. Each desired pixel was drawn individually after an adjustment on size and color, depending on the attributes of the <code class="language-plaintext highlighter-rouge">pen_t</code> class. All pixels were first added to a 2D array and plotted on the screen at the end of the whole operation.</p>
+
+<p>To draw triangles, three lines were drawn in succession.</p>
+
+<h2 id="fill-algorithm">Fill Algorithm</h2>
+
+<p>To fill a certain section on the image, first a seed pixel is provided by the user. The color of that pixel is called the target color, and all pixels which are connected (horizontal and vertical connections only) to this pixel by a series of target colored pixels are colored by the fill color.</p>
+
+<p>The fill algorithm implemented is the second algorithm in the <a href="https://en.wikipedia.org/wiki/Flood_fill#Alternative_implementations">alternative implementations</a> mentioned on the Wikipedia page. The first alternative implementation was extremely slow, forcing us to use the faster and more practical approach of filling the east-west direction first.</p>
+
+<h2 id="loading--saving-from-files">Loading / Saving from Files</h2>
+
+<p>The program maintains a list of operations performed on the canvas from the start. The operations supported are drawing lines (code <code class="language-plaintext highlighter-rouge">'L'</code>), drawing triangles (code <code class="language-plaintext highlighter-rouge">'T'</code>), changing pen configuration, (code <code class="language-plaintext highlighter-rouge">'C'</code>) and filling figures (code <code class="language-plaintext highlighter-rouge">'F'</code>). Each of the corresponding classes have a pair of functions, <code class="language-plaintext highlighter-rouge">to_string</code> and <code class="language-plaintext highlighter-rouge">from_string</code>.</p>
+
+<p>Each time one of the above operations happen, the <code class="language-plaintext highlighter-rouge">to_string</code> converts relevant information about the object to a string and stores it in the list along with the <code class="language-plaintext highlighter-rouge">op_code</code>. On pressing Save, the list is read out and written down into a file.</p>
+
+<p>On pressing <code class="language-plaintext highlighter-rouge">Load</code>, the file is read and divided into op_codes and inputs. The input strings are fed into empty objects via the <code class="language-plaintext highlighter-rouge">from_string</code> function, which populates the object’s parameters (for example, the endpoints of a <code class="language-plaintext highlighter-rouge">line_t</code> object). This object is then drawn to the canvas.</p>
+
+<h2 id="future-improvements">Future Improvements</h2>
+
+<ul>
+  <li>There is a need to have an UNDO function. This is easy to implement due to the list structure that has been used to store operations.</li>
+  <li>There should be a function to draw circles and ellipses.</li>
+  <li>The eraser is not very useful in the current implementation.</li>
+</ul>
+
+<h2 id="finally-an-ode-to-rio-2016">Finally, an ode to Rio 2016!</h2>
+
+<p><img src="https://move47.github.io/assets/rio.png" alt="rio" /></p>
+:ET

@@ -10,3 +10,6 @@ order: 3
 - In 1956, Massachusetts Institute of Technology (MIT) _Prof Claude Shannon_ [one-page article](../assets/miscellaneous/Shannon_Claude_E_1956_The_Bandwagon.pdf) trying to __curb the information theory hype__.
 - __Coping with Rejection in Academia__: A Three-Pronged Approach. A [talk](https://www.loom.com/share/89bfb10668d94595b265a156126474a5) by Aditya Parameswaran, UCB.
 - __Git cheat [sheet](../assets/miscellaneous/git-cheat-sheet.pdf)__.
+
+
+<!-- <iframe width="250" height="150" src="https://www.youtube.com/embed/lvNNihPXYvs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
