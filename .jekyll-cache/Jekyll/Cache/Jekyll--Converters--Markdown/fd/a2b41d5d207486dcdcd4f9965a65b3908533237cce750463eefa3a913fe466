@@ -1,0 +1,28 @@
+I"&<h2 id="introduction">Introduction</h2>
+<p><em>Arthur Samuel</em>, a pioneer in the field of computer gaming and artificial intelligence, described <strong>machine learning</strong>
+as a <em>field of study that gives computers the ability to learn without being explicitly programmed</em>. ML is being
+increasingly utilized for a variety of applications from recommending new movies to programming self-driving
+cars. Furthermore, owing to it’s breakthrough in computer vision, speech recognition, ads, social feed and
+auto-complete etc, Deep Learning (DL) has gained huge attention and has helped the human race in many re-
+spects. With the advancement in technology, we can extend the embedment of these sophisticated applications
+into mobile devices and computers, with which individuals spend most of their time. Our activities like search
+queries, purchase transactions, the videos we watch, and our movie preferences are the few types of information
+that are being collected and stored on regular basis at both local(search engine) and remote storage(service
+enabled servers) for further processing. <strong><em>Our personal data generated through these activities are used by ML
+applications to give us better user-experience.</em></strong> Such private data is uploaded to centralized locations in clear
+text for ML algorithms which in-turn extract patterns from them, and update models accordingly(<strong>federated
+learning</strong>). The sensitivity of such data increases it’s risk of being maliciously used by an insider as well as
+outsider. Additionally, it is possible to gain insights into private data sets even if these data are anonymized
+and the ML models are inaccessible.
+A machine learning process consists of two phases viz. <em>training phase</em> and <em>evaluation phase</em>. In the learn-
+ing phase, a model or classifier is built on a possibly large data set. In the second phase, the trained model
+is being queried and based on its result, it is further updated for better accuracy in the next time-step. For
+every ML task, three different roles are possible: the input party (data owners or contributors), the computation
+party and the result party. In such systems, the data owner(s) send their data to the computation party which
+perform the required ML task and deliver the output to the result party. Such output could be an ML model
+that the result party can utilize for testing new samples. In other cases, the computation party might keep the
+ML model, and perform the task of testing new samples submitted by the result party, and returning the test
+results to the result party. If all the three roles are played by the same entity, then privacy is naturally pre-
+served, however when these roles are distributed across two or more entities, then <strong>PRIVACY-ENHANCING
+TECHNOLOGIES</strong> are needed.</p>
+:ET
