@@ -1,2 +1,0 @@
-I"�<p>It’s been a long time since my GSoC blog series, and I’ve had an exciting week thanks to a Computer Graphics assignment on OpenGL. The assignment involved creating a Paint application which can save / load images in a vector like custom format, without using any of the in-built functionality that OpenGL gives us. This blog describes the algorithms used along with a few screenshots of the results.</p>
-:ET

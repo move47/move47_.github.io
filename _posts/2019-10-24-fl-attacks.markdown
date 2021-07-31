@@ -4,18 +4,18 @@ title:  "Federated Learning from adversarial view"
 date:   2019-10-24 11:20:55 +0530
 tags: federated learning
 ---
-## Background and Rationale
+### Background and Rationale
 Mobile phones, wearable devices, voice assistants, and autonomous vehicles are just a few of the new
 distributed networks generating a wealth of data each day, where each data sample belongs to different type of statistical distribution(Non- IID's) . Due to the growing computational power of these devices—coupled with concerns about transmitting private information(if it gets leaked, a lot about the device and the user's behavior can be inferred easily)—it is increasingly attractive to store data locally and thus, push network computation closer to the edge devices. The learning becomes more challenging as it seems if data contains sensitive information like location, health, and other ambient signals because the private information gets more sensitive over time, which may lead to bad user experience. __*Federated learning*__ _has emerged as a new training paradigm in such settings. Federated learning (aka collaborative learning) is a machine learning technique that trains an algorithm across multiple decentralized edge devices or servers holding local data samples, without exchanging their data samples_. It stands in contrast to traditional centralized machine learning techniques where all data samples are uploaded to one server, as well as to more classical decentralized approaches which assume that local data samples are identically distributed. From [<span style="color:green">[1]</span>](#references), FL is privacy-preserving model training in heterogeneous,distributed networks.
 
-## FL Applications
+#### FL Applications
 <p align="center">
-<img src="{{ site.url }}/assets/fl_introduction.png" />
+<img src="{{ site.url }}/assets/Blog/FL/fl_introduction.png" />
 </p>
 <p align="center"><i>Auto-suggestion application</i></p>
 <br /><br />
 <p align="center">
-<img src="{{ site.url }}/assets/fl_medical.png" />
+<img src="{{ site.url }}/assets/Blog/FL/fl_medical.png" />
 </p>
 <p align="center"><i>Usage of federated learning for providing better healthcare by taking relevant data from various medical organisations, which in turn is difficult to achieve through centralised learning.</i></p>
 <br /><br />
@@ -28,7 +28,7 @@ __Step I__. The master device sends the current global model parameters to all w
 
 **Step III**. The master device aggregates the local models from the worker devices to obtain a new global model according to a certain aggregation rule. *REPEAT STEP I.*
 
-## Some literature review about attacks on FL
+### Some literature review about attacks on FL
 If we see the federated training algorithm closely, in all the three steps, the data of each individual is not being used directly, which motivates the participating users to share their sensitive data for useful learning. At first glance, it also provides some privacy guarantee as the raw data never leaves the user device, and only updates to models (e.g., gradient updates) are sent to the central server, which is not in the case of a centralized setting. On the contrary,  recent works by *Shokri et al* <span style="color:green">[[4]](#references)</span> have shown that it is possible to construct scenarios in which information about the raw data is leaked from a client to the server, such as a scenario *where knowing the previous model and the gradient update from a user would allow one to infer a training example held by that user* which is popularly known as __*Membership-Inference attack*__ among ML community.
 
 To provide better user privacy, several cryptographic and data perturbation techniques like 
@@ -56,14 +56,14 @@ this gap to the relative strength of an adversary operating under these attack m
 perform data poisoning attacks may be much higher than the number that can perform model update poisoning attacks, especially in cross-device settings. Thus, understanding the relation between these two attack
 types, especially as they relate to the number of adversarial clients, would greatly help our understanding of
 the threat landscape in federated learning.
-## Motivation while writing this post
+### Motivation while writing this post
 I had the following motivations while writing this post:-<br>
 Given __*n*__, no. of working devices and an honest 
 but curious Server, Formulation of an innovative protocol which can provide rigorous privacy guarantees in the following scenarios:-
 - When m out of n clients become adversaries or an adversary controls m clients in the cross-device or cross-silo federated setting, aiming to perform various attacks such as Data Poisoning, Model UpdatePoisoning, and Backdoor attacks.
 - Robustness of the same developed protocol towards federated training algorithm, when a certain number of trusted users drop out due to participation constraints, ending up in a network having more number of malicious clients.
 
-## References
+### References
 1. David Evans, Rachel Cummings, Martin Jaggi _et al ._  [ Advances and Open problems in Federated Learning. ](https://arxiv.org/pdf/1912.04977.pdf)*arXiv:1912.04977*
 2. Bargav Jayaraman and David Evans. [Evaluating Differentially Private Machine Learning in Practice](https://arxiv.org/pdf/1902.08874.pdf).  _In 28th USENIX Security Symposium 2019_.
 3. Bargav Jayaraman, Lingxiao Wang, David Evans, and Quanquan Gu. [Distributed Learning without Distress:
