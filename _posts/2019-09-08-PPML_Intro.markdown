@@ -59,18 +59,14 @@ About 2 years ago, Google researchers introduced a Skin disease classifier at th
 an application to take photos of skin, and run it to __CNN(Convolutional Neural Network)__ to intimate about
 your visit to a dermatologist. It was also observed that the accuracy of prediction was an expert level. When the user queries the application, they do not make any changes(e.g.  noise perturbation) to the input skin image. The service provided then takes it for further processing. 
 <p align="center">
-<img src="{{ site.url }}/assets/Blog/PPML/Cloud.jpg" />
+<img src="{{ site.url }}/assets/Blog/PPML/skin_cancer.jpg" />
 </p>
-<p align="center"><i>Figure 2: Most Machine learning today is done in the cloud</i></p>
+<p align="center"><i>Figure 3: Skin Cancer Classifier</i></p>
 <br /><br />
 The same uploaded skin image may contain sensitive information about an individual. The results of this information leakage could be harmful in some cases.
 Under such circumstances, the ML service could potentially become unreliable. Therefore, we need privacy at both the input and output ends when we don’t have access
 to the model.
-<p align="center">
-<img src="{{ site.url }}/assets/Blog/PPML/Cloud.jpg" />
-</p>
-<p align="center"><i>Figure 3: Skin Cancer Classifier</i></p>
-<br /><br />
+
 
 __Note:__ This is one of the example on top of my head now. There are hundreds of others also, which directs affects user privacy.
 
