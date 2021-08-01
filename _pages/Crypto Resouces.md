@@ -2,7 +2,7 @@
 layout: page
 title: Crypto Resources
 permalink: /crypto_resources/
-order: 6
+order: 4
 ---
 
 ![Image](../assets/resources/CandH_Teaching.jpg)

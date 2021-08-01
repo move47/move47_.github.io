@@ -2,7 +2,7 @@
 layout: page
 title: Miscellaneous
 permalink: /Miscellaneous/
-order: 3
+order: 5
 ---
 
 - [Website](https://t.co/7DtawV9oTN?amp=1) for quick reference on topics like Python, Pandas, Numpy, and others.
