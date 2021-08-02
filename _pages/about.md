@@ -15,7 +15,7 @@ I've spent some excellent summers in both industry and academia via internships.
 When I'm not working, I am generally lurking reddit and twitter for keeping myself updated about the recent trends in my research work. I would highly recommend to follow known researchers of your field for getting fast access to latest research directions. I like to collect resources for the benefit of fledgling students under 
 [Crypto Resources]({{ site.url }}/crypto_resources/) and [Miscellaneous]({{ site.url }}//Miscellaneous/) section. The resources may range from basic to advanced level. I also maintain a [blog]({{ site.url }}/archive) which sporadically gets updated. 
 
-During my undergraduate days, I was associated with [E-Summit](http://www.e-summit-iitbbs.com/), where I both participated and organised several events related to Entrepreneurship. I was also member of [The Fourth Wall](https://www.facebook.com/The-Fourth-WallDramatics-Society-of-IIT-Bhubaneswar-131402333580109)(Dramatics Society of IIT Bhubaneswar), where I took part in several open and stage acts. This time, I am and will cherish throughout my life. 
+During my undergraduate days, I was associated with [E-Summit](http://www.e-summit-iitbbs.com/), where I both participated and organised several events related to Entrepreneurship. I was also member of [The Fourth Wall](https://www.facebook.com/The-Fourth-WallDramatics-Society-of-IIT-Bhubaneswar-131402333580109)(Dramatics Society of IIT Bhubaneswar), where I took part in several open and stage acts. I completely enjoyed being here, I am and will cherish it throughout my life. 
 
 <!-- Some people on the internet (especially on Mozilla's IRC) know me as *martianwars*. -->
 

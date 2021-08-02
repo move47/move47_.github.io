@@ -8,7 +8,7 @@ layout: page
 <img style="float: left; width: 25%; padding: 15px;" src=" ./assets/move.png" >
 
 
-My name is __Himanshu Goyal__ ([<span style="color:red">How to pronounce my name</span>](./assets/name.mp3)). I am a Dual Degree Student at [Indian Institute of Technology Bhubaneswar](https://www.iitbbs.ac.in/) majoring in Computer Science. Currently, I am focussing to build large scale decentralized IoT/WSNs systems which embodies Trust, Security and Privacy guarantees. I am being advised by [Dr. Sudipta Saha](https://www.iitbbs.ac.in/profile-print.php?furl=sudipt). I am also closely associated with [Decentralized and Smart Systems Research Group (DSSRG)](https://sites.google.com/iitbbs.ac.in/dssrg) at IIT Bhubaneswar.
+My name is __Himanshu Goyal__ ([<span style="color:red">How to pronounce my name</span>](./assets/name.mp3)). I am a Dual Degree Student at [Indian Institute of Technology Bhubaneswar](https://www.iitbbs.ac.in/) majoring in Computer Science. Currently, I am focussing on building large scale decentralized IoT/WSNs systems which embodies Trust, Security and Privacy guarantees. I am being advised by [Dr. Sudipta Saha](https://www.iitbbs.ac.in/profile-print.php?furl=sudipt). I am also closely associated with [Decentralized and Smart Systems Research Group (DSSRG)](https://sites.google.com/iitbbs.ac.in/dssrg) at IIT Bhubaneswar.
 
  <!-- In the past, I've spent some excellent summers at [TCS Research and Innovation](https://www.tcs.com/research-and-innovation) (Summer 2020), and  at [CNERG IIT Kharagpur](https://cnerg-iitkgp.github.io/) (Summer 2019). -->
 
@@ -16,11 +16,12 @@ I have worked on several disciplines ranging from Deep learning, Systems & Netwo
 
                     Verily, I truly enjoy applied cryptography in particular.
 
-I maintain a list of cryptographic resources under the [Crypto Resources]({{ site.url }}/crypto_resources) tab. It mostly contains references to the courses taught at universities along with some additional useful information. _If you feel to suggest some resources, I welcome you to contact me for the same._ 
+I maintain a list of cryptographic resources under the [Crypto Resources]({{ site.url }}/crypto_resources) tab. It mostly contains references to the courses taught at universities along with some additional useful information. _If you feel to contribute, I welcome you to contact me for the same._ 
 I also occasionally [blog]({{ site.url }}/archive) to distill out my understanding from the readings I do. 
 Well, you can find me reading, lurking reddit and twitter in my spare time. Nevertheless, I am an ardent Cricket fan and love talking about it.
 
-CV / Resume: [link]({{ site.url }}/assets/cv.pdf)  
+<!-- CV / Resume: [link]({{ site.url }}/assets/cv.pdf)   -->
+CV / Resume: [link]({{ site.url }}/CV/)<br /><br />
 Email ID: [hg11@iitbbs.ac.in](mailto:hg11@iitbbs.ac.in)
 #### Updates
 
