@@ -4,7 +4,7 @@ title: Crypto Resources
 permalink: /crypto_resources/
 order: 4
 ---
-
+<!--- This is an HTML comment in Markdown -->
 ![Image](../assets/resources/CandH_Teaching.jpg)
 ## Security  
 - [Symmetric Key Crypto](https://www.youtube.com/channel/UCLlw-K3hvGx94l1POd0k2sw/playlists): One-hour Summary by Dan Boneh
