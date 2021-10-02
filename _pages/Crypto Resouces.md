@@ -32,3 +32,4 @@ Fall 2019](https://inst.eecs.berkeley.edu/~cs294-163/fa19/), Raluca Ada Popa, UC
 - [An Annotated Bibliography of Practical Secure Computation](https://web.engr.oregonstate.edu/~rosulekm/scbib/) Mike Rosulek OSU
 - [Some Graduate Advices](http://web.engr.oregonstate.edu/~rosulekm/advising.html)
 - Mihir Bellare's [course](https://cseweb.ucsd.edu/~mihir/cse209b-Wi21/) on "Seeing the invisible" at UCSD. 
+- Debmalya Panigrahi's course on [Great Ideas in Computer Science](https://sites.google.com/view/duke-compsci-290-fall-2021/home?authuser=0) at Duke University.
