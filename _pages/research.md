@@ -8,7 +8,7 @@ I am broadly interested in developing algorithms/systems which sufficiently guar
 
 #### **Publications**
 <!---Stay tuned for exciting updates....-->
-1. Practical Byzantine Consensus for Internet-of-Things [Under Review] (https://doi.org/10.36227/techrxiv.17040188.v1)
+1. Practical Byzantine Consensus for Internet-of-Things [Under Review](https://doi.org/10.36227/techrxiv.17040188.v1)
 
 #### **Thesis**
 
