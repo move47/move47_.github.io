@@ -4,7 +4,7 @@ title: Research
 permalink: /research/
 order: 3
 ---
-I am broadly interested in developing algorithms/systems which sufficiently guarantees- Security, Privacy and Robustness(partial if not completely). I always get a kick out of me while studying underlying principles behind Multi-party Computation(MPC), Homomorphic Encryption(HE), Byzantine Agreement, Verifiable Secret Sharing, etc..  
+I am broadly interested in developing algorithms/systems which sufficiently guarantee- Security, Privacy, and Robustness(partial if not wholly). Currently, I am studying underlying principles behind Multi-party Computation(MPC), Homomorphic Encryption(HE), Byzantine Fault Tolerance, Verifiable Secret Sharing, etc. Moreover, I am developing solutions for low-power networks incorporating some of these techniques.  
 
 #### **Publications**
 <!---Stay tuned for exciting updates....-->
