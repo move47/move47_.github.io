@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>text scramble effect</title>
+    <style>
+    
+     @import 'https://fonts.googleapis.com/css?family=Roboto+Mono:100';
+html,
+body {
+  font-family: 'Poppins',sans-serif;
+}
+.scramble__container {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.scramble__text {
+  font-weight: bold;
+  font-size: 14px;
+  color: black;
+}
+.dud {
+  color: white;
+}
+
+    </style>
+</head>
+<body>
+   <div class="scramble__container">
+    I have worked on several disciplines ranging from .... <a class="scramble__text"></a>
+</div> 
+<script src="scramble.js"></script>
+<script>
+    
+    
+const phrases = [' Deep learning',' Systems & Networking', ' Blockchain', ' Trustworthy distributed computing', ' Privacy Preserving Machine Learning(PPML)'];
+const el = document.querySelector('.scramble__text');
+const fx = new TextScramble(el);
+let counter = 0;
+
+const next = () => {
+  fx.setText(" "+phrases[counter]).then(() => {
+    setTimeout(next, 800);
+  });
+  counter = (counter + 1) % phrases.length;
+};
+
+next();
+    </script>
+</body>
+</html>

@@ -1,9 +1,7 @@
----
-layout: post
-title:  "Privacy Preserving Machine Learning"
-date:   2019-09-08 09:20:55 +0530
+<!-- ---
+Author: Himanshu Goyal
 tags: machine learning
----
+--- -->
 ### Introduction
 _Arthur Samuel_, a pioneer in the field of computer gaming and artificial intelligence, described __machine learning__
 as a _field of study that gives computers the ability to learn without being explicitly programmed_. ML is being
@@ -37,11 +35,12 @@ TECHNOLOGIES__ are needed.
 major stories surface around data privacy, which makes it the most relevant year for privacy since the Snowden
 leaks in 2013. Data Privacy impacts our politics, security, businesses, relationships, health, and finances.
 <p align="center">
-<img src="{{ site.url }}/assets/Blog/PPML/google_attack_graph.png" />
+<img src="../assets/Blog/PPML/google_attack_graph.png" />
 </p>
 <p align="center"><i>Figure 1: Google Trends for “data privacy”, 2013 — 2019</i></p>
 <br /><br />
-### ML-as-a-Service(MLaaS)
+
+#### ML-as-a-Service(MLaaS)
 In this technology-driven world, most of the organizations have deployed
 their ML and DL based trained models into the cloud for better reliability and integrity. For a particular query
 from Data owners, they are both Computation Party and Results’ Party and this can affect the overall privacy
@@ -49,7 +48,7 @@ of owners adversely. In fact, with all of the data that is collected from indivi
 basis, data owners might not be aware of how the data collected from them is being used (or misused), and in
 many cases, not even aware that some data types are being collected.
 <p align="center">
-<img src="{{ site.url }}/assets/Blog/PPML/Cloud.jpg" />
+<img src="../assets/Blog/PPML/Cloud.jpg" />
 </p>
 <p align="center"><i>Figure 2: Most Machine learning today is done in the cloud</i></p>
 <br /><br />
@@ -59,7 +58,7 @@ About 2 years ago, Google researchers introduced a Skin disease classifier at th
 an application to take photos of skin, and run it to __CNN(Convolutional Neural Network)__ to intimate about
 your visit to a dermatologist. It was also observed that the accuracy of prediction was an expert level. When the user queries the application, they do not make any changes(e.g.  noise perturbation) to the input skin image. The service provided then takes it for further processing. 
 <p align="center">
-<img src="{{ site.url }}/assets/Blog/PPML/skin_cancer.png" />
+<img src="../assets/Blog/PPML/skin_cancer.png" />
 </p>
 <p align="center"><i>Figure 3: Skin Cancer Classifier</i></p>
 <br /><br />
@@ -103,7 +102,7 @@ model by utilizing the responses received from that ML model.
     data owner.
     Example: Fingerprint reconstruction, Mobile device touch gesture reconstruction.
 <p align="center">
-<img src="{{ site.url }}/assets/Blog/PPML/Attack.png" />
+<img src="../assets/Blog/PPML/Attack.png" />
 </p>
 <p align="center"><i>Figure 4: Threats with ML Models</i></p>
 <br /><br />

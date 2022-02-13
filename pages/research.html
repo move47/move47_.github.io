@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Research</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../main.css'>
+    <script src='../main.js'></script>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <script type="text/javascript" src="js/lib/jquery-1.11.1.min.js" ></script>
+    <script> 
+        $(function(){ $("head").load("header.html") });
+    </script>
+   <!-- <script> 
+     $(function(){ $("head").load("footer.html") });
+   </script> -->
+</head>
+<body>
+    <iframe src="header.html" id="iFrameID" frameborder="0"  style="visibility:hidden;" onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"></iframe>
+
+    <!--body-->
+    <section class="aboutme">
+        <div class="about__container">
+            <h2 class="section__title">Research</h2>
+            <div class="about-content">
+                <div class="line"></div>
+                <div class="about__data">
+                    <div class="post-content">
+                        <p>I am broadly interested in developing algorithms/systems which sufficiently guarantee- Security, Privacy, and Robustness(partial if not wholly). Currently, I am studying underlying principles behind Multi-party Computation(MPC), Homomorphic Encryption(HE), Byzantine Fault Tolerance, Verifiable Secret Sharing, etc. Moreover, I am developing solutions for low-power networks incorporating some of these techniques.</p>
+                    
+                    <h4 id="publications"><strong>Publications</strong></h4>
+                    <!---Stay tuned for exciting updates....-->
+
+                    <div style="margin-left: 2.5rem;">
+                        <ol style="margin-top: .75rem;" >
+                            <li>
+                                Practical Byzantine Consensus for Internet-of-Things <a href="https://doi.org/10.36227/techrxiv.17040188.v1">Under Review</a>
+                            </li>
+                        </ol>
+                    </div>
+                    
+                      
+                    <div style="margin-top: 2.5rem;">
+                        <h4 id="thesis"><strong>Thesis</strong></h4>
+                        <div>
+                            <ul style="margin-left: 2rem;margin-top: .75rem;">
+                                <li>
+                                    <p><a href="https://move47.github.io/assets/Bachelor_Thesis.pdf">Undergraduate Thesis - 
+                                        Scalable Practical Byzantine Consensus in Wireless Sensor Networks</a><br>
+                                        <em>(under guidance of <a href="https://www.iitbbs.ac.in/profile-print.php?furl=sudipta">
+                                            Prof. Sudipta Saha</a>)</em><br>IIT Bhubaneswar <em>(2017-2021)</em></p>
+                                </li>
+                            </ul>
+
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            </div>
+        </div>
+    </section>
+
+    <!-------->
+    <!-- <iframe src="footer.html" onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"></iframe> -->
+    <iframe id="iFrameID" frameborder="0"  style="visibility:hidden;" src="footer.html" onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"></iframe>
+
+
+</body>
+</html>
