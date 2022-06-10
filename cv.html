@@ -18,13 +18,23 @@
 </head>
 <body>
     <iframe src="./header.html" id="iFrameID" frameborder="0"  style="visibility:hidden;" onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"></iframe>
-
     <section class="aboutme">
-        <div class="about__container " style="display:flex; justify-content: center;">
-    
-    <embed class="cv" src="../assets/cv.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf" width="95%" height="800px" style="margin-top: 4rem;width: 1048px;" />
-    </div>
-    </section>
+        <div class="about__container " style=" justify-content: center;">
+                    
+            <h2 class="" style="text-align: center;margin-top: 5.5rem;">CV</h2>
+                <div class="line"></div>
+
+            <div class="intro__extended">
+                
+                <embed class="cv desc " style="border-top: -1rem;" src="../assets/cv.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf" width="95%" height="800px" style="margin-top: 4rem;width: 1048px;" />
+ 
+                
+            
+            </div>
+        </div>
+
+    </section> 
+
     <iframe id="iFrameID" frameborder="0"  style="visibility:hidden;" src="./footer.html" onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"></iframe>
 
 </body>
