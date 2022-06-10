@@ -453,10 +453,13 @@ img {
 }
 .timeline ul li:hover{
 	box-shadow:0px 0px 8px rgba(0,0,0,.5);
+  border: 1px solid var(--first-color-lighter);
 }
 .timeline ul li:hover:before{
 	background-color:hsl(240, 92%, 85%);
 	box-shadow:0px 0px 10px 2px rgb(87, 75, 197);
+  border: 1px solid var(--first-color-lighter);
+
 }
 @media (max-width:300px){
 	.timeline{
