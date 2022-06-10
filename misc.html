@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Miscellaneous</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./assets/css/styles.css'>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <script src='./assets/js/main.js'></script>
+    <script type="text/javascript" src="js/lib/jquery-1.11.1.min.js" ></script>
+    <script> 
+        $(function(){ $("head").load("header.html") });
+    </script>
+   <script> 
+     $(function(){ $("head").load("footer.html") });
+   </script>
+   <style>
+   .misc_list li:not(:last-child) {
+    margin-bottom: 10px;
+  }</style>
+</head>
+<body>
+    <iframe src="./header.html" id="iFrameID" frameborder="0"  style="visibility:hidden;" onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"></iframe>
+    
+    <!--body-->
+    <section class="aboutme">
+        <div class="aboutpage__container">
+            
+            <div class="aboutpage-content">
+                <h2 class="" style="text-align: center;margin-top: 2.5rem;">Miscellaneous</h2>
+                <div class="line"></div>
+                <div class="aboutpage__data" >
+                    <div class="post-content">
+                        <ul class="misc_list" style="list-style: disc; padding-left: 2rem;">
+                            <li>
+                                <a href="https://t.co/7DtawV9oTN?amp=1">Website</a> for quick reference on topics like Python, Pandas, Numpy, and others.
+                            </li>
+
+                            <li>
+                                A team at google discussing about the <strong>Human side of AI</strong>. It talks about fairness, bias, diversity, etc. 
+                                [<a href="https://pair.withgoogle.com/explorables/">Link</a>]
+                            </li>
+
+                            <li>
+                                In 1956, Massachusetts Institute of Technology (MIT) <em>Prof Claude Shannon</em>
+                                 <a href="/assets/miscellaneous/Shannon_Claude_E_1956_The_Bandwagon.pdf">one-page article</a> 
+                                 trying to curb the information theory hype.
+                            </li>
+
+                            <li>
+                                <strong>Coping with Rejection in Academia</strong>: A Three-Pronged Approach.
+                                 A <a href="https://www.loom.com/share/89bfb10668d94595b265a156126474a5">talk</a> by Aditya Parameswaran, UCB.
+                            </li>
+
+                            <li>
+                                <strong><a href="/assets/miscellaneous/git-cheat-sheet.pdf">Git cheat sheet</a></strong>.
+                            </li>
+
+                            <li>
+                                <strong>Setting SSH keys in Git(hub/lab)</strong>
+                                 <a href="https://medium.com/@viviennediegoencarnacion/manage-github-and-gitlab-accounts-on-single-machine-with-ssh-keys-on-mac-43fda49b7c8d">Link</a>
+                            </li>
+                        </ul>
+                    
+                </div>
+                </div>
+            
+            </div>
+        </div>
+    </section>
+    
+
+    <!-------->
+    <iframe id="iFrameID" frameborder="0"  style="visibility:hidden;" src="./footer.html" onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"></iframe>
+
+</body>
+</html>

@@ -1,23 +1,244 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<div class="home">
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <script src="https://code.iconify.design/2/2.1.2/iconify.min.js"></script>
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+        crossorigin="anonymous">
+        <!-- =====BOX ICONS===== -->
+        <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+        <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.8.0/css/all.css">
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+        <title>Himanshu</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <div>
+            <header class="header1">
+                <nav class="nav bd-grid">
+                    <div>
+                        <a href="#" class="nav__logo">Himanshu</a>
+                    </div>
+    
+                    <div class="nav_menu" id="nav-menu">
+                        <ul class="nav__lists">
+                            <li class="nav__items"><a href="#" class="nav__link active"> <i class="uil uil-estate nav__icon"></i>Home</a></li>
+                            <li class="nav__items"><a href="./about.html" class="nav__link"><i class="uil uil-user nav__icon"></i>About</a></li>
+                            <li class="nav__items"><a href="./blog.html" class="nav__link"><i class="uil uil-document-layout-center nav__icon"></i>Blog</a></li>
+                            <li class="nav__items"><a href="./reasearch.html" class="nav__link"><i class="uil uil-search-alt nav__icon"></i>Research</a></li>
+                            <li class="nav__items"><a href="./crypto.html" class="nav__link"><i class="uil uil-notebooks nav__icon"></i>Resources</a></li>
+                            <li class="nav__items"><a href="./misc.html" class="nav__link"><i class="uil uil-atom nav__icon"></i>Miscellaneous</a></li>
+                        </ul>
+                    </div>
+    
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class='bx bx-menu'></i>
+                    </div>
+                </nav>
+            </header>
+        </div>
 
-  <h1 class="page-heading">Posts</h1>
+        <main class="l-main">
+            
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+                <div class="about__container bd-grid" style="margin-top: 5rem;">
+                    <div class="about__img">
+                        <img class="item about__blob-img" src="assets/img/him1.png" alt=""> 
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">Hi, I'm Himanshu Goyal</h2>
+                        <h4 class="home__subtitle"> <a href="../assets/name.mp3" target="_blank">(How to pronounce my name)</a></h4>
+                        <p class="about__text">
+                            I am a Dual Degree Student at <a href="https://www.iitbbs.ac.in/"> Indian Institute of Technology Bhubaneswar</a> majoring in Computer Science.
+                     Currently, I am focussing on building large scale decentralized IoT/WSNs systems which embodies Trust, Security and Privacy guarantees.
+                     I am being advised by <a href="https://www.iitbbs.ac.in/profile.php/sudipta/" target="_blank">Dr. Sudipta Saha</a>. I am also closely associated with <a href="https://sites.google.com/iitbbs.ac.in/dssrg">Decentralized and Smart Systems Research Group (DSSRG)</a> at IIT Bhubaneswar.
+    
+                        </p>  
+                        <div>
+                            <p class="about__text desc">
+                                <div class="scramble__container" style="word-wrap: break-word;">
+                                 I have worked on several disciplines ranging from 
+                                &nbsp;<a class="scramble__text" id="tst"></a>
+                            </div> </p>  
+                        </div>
+                        
+                        
+                        <div class="cvcontact">
+                            <a href="#footer" class="button button--flex">
+                                Contact Me<i class="uil uil-message button__icon"></i>
+                            </a>
+                            <a href="cv.html" class="cvlink button button--flex">
+                                CV/Resume <i class="uil uil-file-alt button__icon"></i>
+                            </a>
+                        </div>   
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+                        
+                    </div>  
+                    
+                                                   
+                </div>
 
-</div>
+                <div class="about__container " style="margin-top: -2rem; justify-content: center;">
+                    
+                    <span class="phrase__subtitle">Verily, I truly enjoy applied cryptography in particular.</span>
+        
+                    <div class="intro__extended">
+                        <p class="desc" style="justify-content: center; word-wrap: break-word;">
+                            I maintain a list of cryptographic resources under the <a href="https://move47.github.io/crypto_resources">Crypto Resources</a> tab. It mostly contains references to the courses taught at universities along with some additional useful information. <em>If you feel to contribute, I welcome you to contact me for the same.</em> 
+                            I also occasionally <a href="https://move47.github.io/archive">blog</a> to distill out my understanding from the readings I do. 
+                            Well, you can find me reading, lurking reddit and twitter in my spare time. Nevertheless, I am an ardent Cricket fan and love talking about it.
+                        </p>
+                    </div>
+
+            
+                           
+                </div>
+
+                <div class="updateheading">
+                    <h1 style="text-align: center;margin-top: 2.5rem;margin-bottom: 2rem;">Updates</h1>
+    
+                </div>
+
+                <div class="about__container " style="margin-top: -2rem; justify-content: center;">
+                    
+                    <!-- <span class="phrase__subtitle">Verily, I truly enjoy applied cryptography in particular.</span> -->
+        
+                    <div class="intro__extended">
+                        <div class="timeline ">
+                            <ul>
+                                <li>
+                                    <span>May 2020</span>
+                                    <div class="content">
+                                        <p>
+                                            Started remote internship with  <a href="http://www.chayansarkar.com/">Chayan Sarkar</a> at TCS Research &amp; Innovation.
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span>Apr 2020</span>
+                                    <div class="content">
+                                        <p>
+                                        <s> Summer Internship with <a href="https://www.encrypto.cs.tu-darmstadt.de/team_encrypto/thomas_schneider/index.en.jsp">ENCRYPTO Group</a> at TU Darmstadt, Germany</s>(Cancelled due to Covid outbreak).
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span>Mar 2020</span>
+                                    <div class="content">
+                                        <p>
+                                            Participated at Smart India Hackathon(SIH) 2020.
+            
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span>Dec 2019</span>
+                                    <div class="content">
+                                        
+                                        <p>
+                                            Secured Bronze medal at 8th Inter-IIT Tech meet in <i> Outreach Exercise for New Technology Ideas in TV Audience Measurement.</i>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span>May 2019</span>
+                                    <div class="content">
+                                        <p>
+                                            Started Summer Internship at  <a href="https://cnerg-iitkgp.github.io/">CNERG IIT Kharagpur</a> on <i>Characterization of Workload in multi-tier cloud application</i> under the guidance of <a href="http://cse.iitkgp.ac.in/~sandipc/">Sandeep Chakraborty</a>.
+                                        </p>
+                                    </div>
+                                </li>
+                                
+                                <li>
+                                    <span>Sep 2018</span>
+                                    <div class="content">
+                                        <p>
+                                            Started Computer Science Coursework</td></tr>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span>May 2018</span>
+                                    <div class="content">
+                                        
+                                        <p>
+                                            Transferred from 4-year Metallurgical Programme to 5-year Dual Degree(B.tech+M.tech) in Computer Science Engineering(1 out of entire batch).</td></tr>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span>Jul 2017</span>
+                                    <div class="content">
+                                        <p>
+                                            Successfully passed both JEE Main and JEE Advance examinations and secured an admission at <a href="https://www.iitbbs.ac.in/"> IIT Bhubaneswar </a> in its 4-year undergraduate programme in Metallurgical and Materials Engineering.
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span>May 2016</span>
+                                    <div class="content">
+                                        <p>
+                                            Got a direct admission offer from <a href="https://www.bits-pilani.ac.in/">BITS-Pilani </a> on the basis of excellent Intermediate academic performance at <a href="https://www.birlaschoolpilani.edu.in/">Birla School Pilani </a>.
+                                        </p>
+                                    </div>
+                                </li>
+            
+                            </ul>
+                        </div>
+                    </div>
+
+            
+                           
+                </div>
+                
+            </section>
+
+            
+            
+                
+
+                
+            
+
+
+           
+        </main>
+
+        <!--===== FOOTER =====-->
+
+        <div class="footer" id="footer">
+            <iframe id="iFrameIDf" frameborder="0"  style="visibility:hidden;" src="./footer.html" onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"></iframe>
+        </div>
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+        <script src="../temp/scramble.js"></script>
+<script>
+    
+    
+ const classes = [' Deep learning',' Systems & Networking', ' Blockchain', ' Trustworthy distributed computing', ' Privacy Preserving ML'];
+
+var i = 0;
+var id= document.getElementById("tst");
+id.innerHTML=classes[i];
+setInterval(function() {
+    i = (i + 1) % classes.length;
+    id.innerHTML=classes[i];
+}, 2000);
+
+    </script>
+    </body>
+</html>

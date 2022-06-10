@@ -1,0 +1,14 @@
+{
+   "files": [
+    {
+        "name":"2019-09-08-PPML_Intro",
+        "title":  "Privacy Preserving Machine Learning",
+        "date":   "2019-09-08T09:20:55"
+    },
+    {
+        "name":"2019-10-24-fl-attacks",
+        "title":  "Federated Learning from adversarial view",
+        "date":   "2019-10-24T11:20:55"
+    }
+   ]  
+}
