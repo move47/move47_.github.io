@@ -992,7 +992,7 @@ div.scroll {
 }
 
 #updates_container{
-  border: dashed var(--first-color);
+  border: solid var(--first-color);
   border-radius: .5rem;
 }
 
