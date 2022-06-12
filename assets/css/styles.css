@@ -139,6 +139,7 @@ img {
   height: var(--header-height);
   display: flex;
   color: white;
+  font-family: 'Poppins',sans-serif;
   justify-content: space-between;
   align-items: center;
   font-weight: var(--font-semi);
@@ -177,7 +178,7 @@ img {
   height: 0.18rem;
   left: 0;
   top: 2rem;
-  background-color: var(--first-color);
+  background-color: white;
 }
 .nav__lists li a{
   color: white;
