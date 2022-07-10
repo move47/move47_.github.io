@@ -9,20 +9,26 @@
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
     <script src='./assets/js/main.js'></script>
     <script type="text/javascript" src="js/lib/jquery-1.11.1.min.js" ></script>
-    <script> 
-        $(function(){ $("head").load("header.html") });
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>  
+    <script>
+    $(function(){
+      $("#nav-placeholder").load("header.html");
+    });
     </script>
-   <script> 
-     $(function(){ $("head").load("footer.html") });
-   </script>
+    <script>
+    $(function(){
+      $("#footer-placeholder").load("footer.html");
+    });
+    </script>
    <style>
    .misc_list li:not(:last-child) {
     margin-bottom: 10px;
   }</style>
 </head>
 <body>
-    <iframe src="./header.html" id="iFrameID" frameborder="0"  style="visibility:hidden;" onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"></iframe>
-    
+    <div id="nav-placeholder">
+
+    </div>     
     <!--body-->
     <section class="aboutme">
         <div class="about__container " style=" justify-content: center;">
@@ -71,7 +77,8 @@
     
 
   
-    <iframe id="iFrameID" frameborder="0"  style="visibility:hidden;" src="./footer.html" onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"></iframe>
+    <div id="footer-placeholder">
 
+    </div> 
 </body>
 </html>
