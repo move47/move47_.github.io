@@ -85,6 +85,7 @@ a {
 img {
   max-width: 100%;
   height: auto;
+  /*width: auto;*/
   display: block;
 }
 
@@ -282,11 +283,11 @@ img {
 
 .about__img {
   justify-self: center;
-  width:350px;
+  width:450px;
 }
 .about__img img {
-    width: 550px;
-    border-radius: 5.5rem;
+    width: 350px;
+    border-radius: 4rem;
 }
 .about-data{
     justify-content: initial;
