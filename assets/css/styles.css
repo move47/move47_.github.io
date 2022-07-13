@@ -146,9 +146,9 @@ img {
   font-weight: var(--font-semi);
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 820px) {
   .nav_menu {
-    position: fixed;
+    position:fixed;
     top: var(--header-height);
     right: -100%;
     width: 80%;
@@ -692,7 +692,7 @@ img {
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 821px) {
   body {
     margin: 0;
   }

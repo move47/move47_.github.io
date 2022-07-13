@@ -9,22 +9,28 @@
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
     <script src='./assets/js/main.js'></script>
     <script type="text/javascript" src="js/lib/jquery-1.11.1.min.js" ></script>
-    <script> 
-        $(function(){ $("head").load("header.html") });
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>  
+    <script>
+    $(function(){
+      $("#nav-placeholder").load("header.html");
+    });
     </script>
-   <script> 
-     $(function(){ $("head").load("footer.html") });
-   </script>
+    <script>
+    $(function(){
+      $("#footer-placeholder").load("footer.html");
+    });
+    </script>
 </head>
 <body>
-    <iframe src="./header.html" id="iFrameID" frameborder="0"  style="visibility:hidden;" onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"></iframe>
-    
+    <div id="nav-placeholder">
+
+    </div>     
     <!--body-->
     <section class="aboutme">
         <div class="about__container " style=" justify-content: center;">
                     
-            <h2 class="" style="text-align: center;margin-top: 5.5rem;">Research</h2>
-                <div class="line"></div>
+            <h2 class="" style="text-align: center;margin-top: 5.5rem;"><u style="text-underline-offset: 0.5em;text-decoration: underline; text-decoration-color: hsl(240,69%,61%);">Research</u></h2>
+
 
             <div class="intro__extended">
                 <p class="desc">
@@ -86,7 +92,8 @@
 
     </section>
     <!-------->
-    <iframe id="iFrameID" frameborder="0"  style="visibility:hidden;margin-top: 2.5rem;" src="./footer.html" onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"></iframe>
+    <div id="footer-placeholder">
 
+    </div> 
 </body>
 </html>

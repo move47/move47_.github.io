@@ -3,7 +3,6 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <meta content="width=device-width, initial-scale=1" name="viewport" />
         <link rel="stylesheet" href="assets/css/styles.css">
@@ -16,33 +15,23 @@
         <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
         <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
         <title>Himanshu</title>
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>  
+    <script>
+    $(function(){
+      $("#nav-placeholder").load("header.html");
+    });
+    </script>
+    <script>
+    $(function(){
+      $("#footer-placeholder").load("footer.html");
+    });
+    </script>
     </head>
     <body>
         <!--===== HEADER =====-->
-        <div>
-            <header class="header1">
-                <nav class="nav bd-grid">
-                    <div>
-                        <a href="#" class="nav__logo">Himanshu</a>
-                    </div>
-    
-                    <div class="nav_menu" id="nav-menu">
-                        <ul class="nav__lists">
-                            <li class="nav__items"><a href="#" class="nav__link active"> <i class="uil uil-estate nav__icon"></i>Home</a></li>
-                            <li class="nav__items"><a href="./about.html" class="nav__link"><i class="uil uil-user nav__icon"></i>About</a></li>
-                            <li class="nav__items"><a href="./blog.html" class="nav__link"><i class="uil uil-document-layout-center nav__icon"></i>Blog</a></li>
-                            <li class="nav__items"><a href="./reasearch.html" class="nav__link"><i class="uil uil-search-alt nav__icon"></i>Research</a></li>
-                            <li class="nav__items"><a href="./crypto.html" class="nav__link"><i class="uil uil-notebooks nav__icon"></i>Resources</a></li>
-                            <li class="nav__items"><a href="./misc.html" class="nav__link"><i class="uil uil-atom nav__icon"></i>Miscellaneous</a></li>
-                        </ul>
-                    </div>
-    
-                    <div class="nav__toggle" id="nav-toggle">
-                        <i class='bx bx-menu'></i>
-                    </div>
-                </nav>
-            </header>
-        </div>
+        <div id="nav-placeholder">
+
+        </div> 
 
         <main class="l-main">
             
@@ -217,9 +206,9 @@
 
         <!--===== FOOTER =====-->
 
-        <div class="footer" id="footer">
-            <iframe id="iFrameIDf" frameborder="0"  style="visibility:hidden;" src="./footer.html" onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"></iframe>
-        </div>
+        <div id="footer-placeholder">
+
+        </div> 
         <!--===== SCROLL REVEAL =====-->
         <script src="https://unpkg.com/scrollreveal"></script>
 
