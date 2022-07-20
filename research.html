@@ -1,115 +1,101 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Research</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='./assets/css/styles.css'>
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
-    <script src='./assets/js/main.js'></script>
-    <script type="text/javascript" src="js/lib/jquery-1.11.1.min.js" ></script>
-    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>  
-    <script>
-    $(function(){
-      $("#nav-placeholder").load("header.html");
-    });
-    </script>
-    <script>
-    $(function(){
-      $("#footer-placeholder").load("footer.html");
-    });
-    </script>
-</head>
-<body>
-    <div id="nav-placeholder">
+   <head>
+      <meta charset='utf-8'>
+      <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+      <title>Research</title>
+      <meta name='viewport' content='width=device-width, initial-scale=1'>
+      <link rel='stylesheet' type='text/css' media='screen' href='./assets/css/styles.css'>
+      <link rel='stylesheet' type='text/css' media='screen' href='./assets/css/research.css'>
+      <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+      <script src='./assets/js/main.js'></script>
+      <script type="text/javascript" src="js/lib/jquery-1.11.1.min.js" ></script>
+      <script src="https://code.jquery.com/jquery-1.10.2.js"></script>  
+      <script>
+         $(function(){
+           $("#nav-placeholder").load("header.html");
+         });
+      </script>
+      <script>
+         $(function(){
+           $("#footer-placeholder").load("footer.html");
+         });
+      </script>
+      <style>
+        
+      </style>
+   </head>
+   <body>
+      <div id="nav-placeholder" style="color: white;">
+      </div>
+      
+      
+        <main class="page-content" aria-label="Content" >
 
-    </div>     
-    <!--body-->
-    <section class="aboutme">
-        <div class="about__container " style=" justify-content: center;">
-                    
-            <h2 class="" style="text-align: center;margin-top: 5.5rem;"><u style="text-underline-offset: 0.5em;text-decoration: underline; text-decoration-color: hsl(240,69%,61%);">Research</u></h2>
+            <div class="wrapper" >
+               <h2 class="" style="text-align: center;margin-top: 5.5rem;"><u style="text-underline-offset: 0.5em;text-decoration: underline; text-decoration-color: hsl(240,69%,61%);">Research</u></h2>
 
+               <div class="home">
+                  <p style="margin-top: 3rem;">        
+                      I am broadly interested in developing algorithms/systems which sufficiently guarantee- Security, Privacy, and Robustness(partial if not wholly). Currently, I am studying underlying principles behind Multi-party Computation(MPC), Homomorphic Encryption(HE), Byzantine Fault Tolerance, Verifiable Secret Sharing, etc. Moreover, I am developing solutions for low-power networks incorporating some of these techniques.
+                  </p>
+                  <h1 class="page-heading" style="margin-top: 2rem;">Publications</h1>
+                  <h3 id="conference-publications">Conference publications</h3>
+                  <ul>
+                     <li>
+                        <a href="https://doi.org/10.36227/techrxiv.17040188.v1" target="_blank">Practical Byzantine Consensus for Internet-of-Things</a>
+                        <br>
+                        Himanshu Goyal, Sudipta Saha
+                        <br>
+                        <!-- To appear in 
+                        <i>Proceedings of the VLDB Endowment, Volume 16, 2022</i> -->
+                        Under Review
+                        <details>
+                           <summary><i>See more</i></summary>
+                           <b>Reviewer summary:</b> The work studies the problem of extracting fields/entities (such as name, gender, date of birth, etc.) from documents that follow similar templates. Based on their prior experience writing procedural document extraction programs in an industrial setting, the authors explain the drawbacks of using procedural languages for document extraction and present the declarative Blueprint language for template-based document extraction. Blueprint allows the specification of extraction programs through constraints that describe the relationship between entities to be extracted and/or auxiliary information (such as labels that appear in front of such entities). To further simplify the process of writing Blueprint programs, the work presents Studio; a combination of a program inference algorithm and a no-code UI. Given labeled data, Studio synthesizes a Blueprint program and presents the resulting constraints to the user for further editing as needed. Limited experiments on extracting information from passports show that Blueprint and Studio have comparable accuracy to LayoutLM (a deep learning approach for document extraction), but require much lower resources (in terms of run-time and memory usage). Moreover, the paper includes a detailed error analysis of both approaches, explaining their respective failure modes, as well as qualitative feedback received from users of the system (which has been made publicly available).
+                           <br>
+                           <br>
+                           <b>Reviewer comment:</b> I found the combination of declarative language for document extraction, program inference to bootstrap program generation, and UI to help users debug and correct the inferred program very interesting. Combined with the detailed error analysis of the proposed approach and LayoutLM it has the potential to lead to many interesting discussions during the conference on rule-based vs deep learning approaches, their respective benefits in industrial settings, and their potential linking points.
+                        </details>
+                        <br>
+                        <br>
+                     </li>
+                  </ul>
+                  <h3 id="workshopposter-publications"><u style="text-underline-offset: 0.5em;text-decoration: underline; text-decoration-color: hsl(240,69%,61%);">Workshop/Poster publications</u></h3>
+                  <ul>
+                     <li>
+                        <a href="#" target="_blank">Title</a>
+                        <br>
+                        Himanshu Goyal, Sudipta Saha
+                        <br>
+                        In <i>International Conference on XYZ</i>
+                        <br>
+                        <br>
+                     </li>
+                  </ul>
 
-            <div class="intro__extended">
-                <p class="desc">
-                    I am broadly interested in developing algorithms/systems which sufficiently guarantee- Security, Privacy, and Robustness(partial if not wholly). Currently, I am studying underlying principles behind Multi-party Computation(MPC), Homomorphic Encryption(HE), Byzantine Fault Tolerance, Verifiable Secret Sharing, etc. Moreover, I am developing solutions for low-power networks incorporating some of these techniques.
-                </p>
-                    
-                
-            
+                  <h1 class="page-heading">Thesis</h1>
+                  <h3 id="conference-publications">Undergraduate Thesis</h3>
+                  <ul>
+                     <li>
+                        <a href="https://move47.github.io/assets/Bachelor_Thesis.pdf" target="_blank">Scalable Practical Byzantine Consensus in Wireless Sensor Networks</a>
+                        <br>
+                        Himanshu Goyal
+                        <br>
+                        <em>(under guidance of <a href="https://www.iitbbs.ac.in/profile-print.php?furl=sudipta">
+                                 Prof. Sudipta Saha</a>)</em><br>IIT Bhubaneswar <em>(2017-2021)</em>
+                        <br>
+                        <br>
+                     </li>
+                  </ul>
+               </div>
             </div>
-        </div>
-
-    </section> 
-
-    <section class="aboutme">
-        <div class="about__container " style=" justify-content: center;">
-
-            <div class="intro__extended">
-                <p class="desc" style="margin-top: -2rem;">
-                   <strong><u style="text-underline-offset: 0.5em;">Publications</u></strong>    
-                </p>
-                
-            </div>
-            <div class="intro__extended">
-                <ol class ="desc" style="margin-top: -.75rem; margin-left: 2.5rem;" >
-                    <li>
-                        <b>LiPI: Lightweight Privacy Preserving Data Aggregation in IoT.</b>
-                            <ul>
-                                <i> Himanshu Goyal </i>, Krishna Kodali, and Sudipta Saha. Under Review
-                            </ul>
-                    </li>
-                    <li>
-                        <b>ReLI: Real-Time Lightweight Byzantine Consensus in Low-Power IoT-Systems.</b>
-                            <ul>
-                                <i> Himanshu Goyal </i>, Manish Kausik H, and Sudipta Saha. Under Review <a href="https://www.techrxiv.org/articles/preprint/Practical_Byzantine_Consensus_for_Internet-of-Things/17040188">arXiv</a>
-                            </ul>
-                    </li>
-                    <li>
-                        <b>Multi-Party Computation in IoT for Privacy-Preservation.</b>
-                            <ul>
-                                <i>Himanshu Goyal </i>and Sudipta Saha. ICDCS 2022 <a href="https://arxiv.org/abs/2206.01956">arXiv</a>
-                            </ul>
-                    </li>
-                    
-                </ol>
-                
-            </div>
-
-            
-        </div>
-
-    </section>
-    <section class="aboutme">
-        <div class="about__container " style=" justify-content: center;">
-
-            <div class="intro__extended">
-                <p class="desc" style="margin-top: -2rem;">
-                   <strong><u style="text-underline-offset: 0.5em;">Thesis</u></strong>    
-                </p>
-                
-            </div>
-            <div class="intro__extended">
-                <ul class="desc" style="margin-top: -.75rem;" >
-                    <li style="margin-left: 2.5rem;">
-                        <a href="./assets/Final_Thesis.pdf"><b>Dual-Degree Thesis:  
-                            A STEP TOWARDS BUILDING TRUSTWORTHY WIRELESS SENSOR NETWORK</b></a><br>
-                            <em>(under guidance of <a href="https://www.iitbbs.ac.in/profile-print.php?furl=sudipta">
-                                Prof. Sudipta Saha</a>)</em><br>IIT Bhubaneswar <em>(2017-2022)</em>
-                    </li>
-                </ul>
-                
-            </div>
-
-            
-        </div>
-
-    </section>
-    <!-------->
-    <div id="footer-placeholder">
-
-    </div> 
-</body>
+         </main>
+         </div>
+         </div>
+      
+      
+      <div id="footer-placeholder">
+      </div>
+   </body>
 </html>
