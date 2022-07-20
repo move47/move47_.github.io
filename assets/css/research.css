@@ -64,6 +64,10 @@ img{
     max-width:100%;
     vertical-align:middle
 }
+.authors{
+    color: #3f3f3f;
+    font-size: medium;
+}
 figure>img{
     display:block
 }
