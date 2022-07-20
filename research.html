@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset='utf-8'>
+      <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+      <title>Research</title>
+      <meta name='viewport' content='width=device-width, initial-scale=1'>
+      <link rel='stylesheet' type='text/css' media='screen' href='./assets/css/styles.css'>
+      <link rel='stylesheet' type='text/css' media='screen' href='./assets/css/research.css'>
+      <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+      <script src='./assets/js/main.js'></script>
+      <script type="text/javascript" src="js/lib/jquery-1.11.1.min.js" ></script>
+      <script src="https://code.jquery.com/jquery-1.10.2.js"></script>  
+      <script>
+         $(function(){
+           $("#nav-placeholder").load("header.html");
+         });
+      </script>
+      <script>
+         $(function(){
+           $("#footer-placeholder").load("footer.html");
+         });
+      </script>
+      <style>
+        
+      </style>
+   </head>
+   <body>
+      <div id="nav-placeholder" style="color: white;">
+      </div>
+      
+      
+        <main class="page-content" aria-label="Content" >
+
+            <div class="wrapper" >
+               <h2 class="" style="text-align: center;margin-top: 5.5rem;"><u style="text-underline-offset: 0.5em;text-decoration: underline; text-decoration-color: hsl(240,69%,61%);">Research</u></h2>
+
+               <div class="home">
+                  <p style="margin-top: 3rem;">        
+                      I am broadly interested in developing algorithms/systems which sufficiently guarantee- Security, Privacy, and Robustness(partial if not wholly). Currently, I am studying underlying principles behind Multi-party Computation(MPC), Homomorphic Encryption(HE), Byzantine Fault Tolerance, Verifiable Secret Sharing, etc. Moreover, I am developing solutions for low-power networks incorporating some of these techniques.
+                  </p>
+                  <h1 class="page-heading" style="margin-top: 2rem;">Publications</h1>
+                  <h3 id="conference-publications">Conference publications</h3>
+                  <ul>
+                     <li>
+                        <a href="#" target="_blank">LiPI: Lightweight Privacy Preserving Data Aggregation in IoT</a>
+                        <br>
+                        <div class="authors"><b>Himanshu Goyal</b>, Krishna Kodali, Sudipta Saha</div>
+                        <!-- To appear in 
+                        <i>Proceedings of the VLDB Endowment, Volume 16, 2022</i> -->
+                        Under Review
+                        <details>
+                           <summary><i>See more</i></summary>
+                           <!-- <b>Abstract:</b> The work studies the problem of extracting fields/entities (such as name, gender, date of birth, etc.) from documents that follow similar templates. Based on their prior experience writing procedural document extraction programs in an industrial setting, the authors explain the drawbacks of using procedural languages for document extraction and present the declarative Blueprint language for template-based document extraction. Blueprint allows the specification of extraction programs through constraints that describe the relationship between entities to be extracted and/or auxiliary information (such as labels that appear in front of such entities). To further simplify the process of writing Blueprint programs, the work presents Studio; a combination of a program inference algorithm and a no-code UI. Given labeled data, Studio synthesizes a Blueprint program and presents the resulting constraints to the user for further editing as needed. Limited experiments on extracting information from passports show that Blueprint and Studio have comparable accuracy to LayoutLM (a deep learning approach for document extraction), but require much lower resources (in terms of run-time and memory usage). Moreover, the paper includes a detailed error analysis of both approaches, explaining their respective failure modes, as well as qualitative feedback received from users of the system (which has been made publicly available).
+                           <br> -->
+                           <!-- <br>
+                           <b>Reviewer comment:</b> I found the combination of declarative language for document extraction, program inference to bootstrap program generation, and UI to help users debug and correct the inferred program very interesting. Combined with the detailed error analysis of the proposed approach and LayoutLM it has the potential to lead to many interesting discussions during the conference on rule-based vs deep learning approaches, their respective benefits in industrial settings, and their potential linking points. -->
+                        </details>
+                        <br>
+                        <br>
+                     </li>
+
+                     <li>
+                        <a href="https://www.techrxiv.org/articles/preprint/Practical_Byzantine_Consensus_for_Internet-of-Things/17040188" target="_blank">ReLI: Real-Time Lightweight Byzantine Consensus in Low-Power IoT-Systems</a>
+                        <br>
+                        <div class="authors"><b>Himanshu Goyal</b>, Manish Kausik H, and Sudipta Saha
+                        </div> 
+                        <!-- To appear in 
+                        <i>Proceedings of the VLDB Endowment, Volume 16, 2022</i> -->
+                        Under Review
+                        <details>
+                           <summary><i>See more</i></summary>
+                           <b>Abstract:</b> IoT/WSN assisted smart-systems are making our living easier and more comfortable in various aspects. However, there is always a chance of malfunctioning in such massive decentralized systems in crucial moments because of one or more components of the system getting compromised. For instance, monitoring systems installed to watch the status of a bridge may unknowingly suppress the recent deterioration in the status because of some compromised sensing devices. Byzantine fault tolerance support is highly essential in combating the presence of such smart devices with malicious intentions. However, existing solutions for consensus or data aggregation in IoT/WSN systems either assume non-Byzantine node failures or use only simulation/theoretical models to address the existence of Byzantine nodes. Theoretically, a decentralized system can effectively tolerate Byzantine characteristics of up to a certain fraction of the nodes. However, to achieve even that, the nodes need to interact extensively and share data with each other which makes it challenging for such solutions to get practically realized and produce outcomes in real-time, especially in resource-constrained IoT systems. In this work, we adopt Synchronous-Transmission based mechanisms and propose a framework ReLI to efficiently achieve Byzantine consensus in low-power IoT systems. We show that ReLI can operate up to 80% faster and consume up to 78% lesser radio-on time compared to the traditional implementation of the strategy in a publicly available IoT/WSN testbed containing 45 nodes.
+                           <br>
+                           <!-- <br>
+                           <b>Reviewer comment:</b> I found the combination of declarative language for document extraction, program inference to bootstrap program generation, and UI to help users debug and correct the inferred program very interesting. Combined with the detailed error analysis of the proposed approach and LayoutLM it has the potential to lead to many interesting discussions during the conference on rule-based vs deep learning approaches, their respective benefits in industrial settings, and their potential linking points. -->
+                        </details>
+                        <br>
+                        <br>
+                     </li>
+
+                     <li>
+                        <a href="https://arxiv.org/abs/2206.01956" target="_blank">Multi-Party Computation in IoT for Privacy-Preservation</a>
+                        <br>
+                        <div class="authors"><b>Himanshu Goyal</b>, Sudipta Saha</div> 
+                        <!-- To appear in 
+                        <i>Proceedings of the VLDB Endowment, Volume 16, 2022</i> -->
+                        Accepted  in 42nd IEEE International Conference on Distributed Computing Systems (ICDCS), 2022, Bologna, Italy.
+                        <details>
+                           <summary><i>See more</i></summary>
+                           <b>Abstract:</b> Preservation of privacy has been a serious concern with the increasing use of IoT-assisted smart systems and their ubiquitous smart sensors. To solve the issue, the smart systems are being trained to depend more on aggregated data instead of directly using raw data. However, most of the existing strategies for privacy-preserving data aggregation, either depend on computation-intensive Homomorphic Encryption based operations or communication-intensive collaborative mechanisms. Unfortunately, none of the approaches are directly suitable for a resource-constrained IoT system. In this work, we leverage the concurrent-transmission-based communication technology to efficiently realize a Multi-Party Computation (MPC) based strategy, the well-known Shamir's Secret Sharing (SSS), and optimize the same to make it suitable for real-world IoT systems.
+                           <br>
+                           <!-- <br>
+                           <b>Reviewer comment:</b> I found the combination of declarative language for document extraction, program inference to bootstrap program generation, and UI to help users debug and correct the inferred program very interesting. Combined with the detailed error analysis of the proposed approach and LayoutLM it has the potential to lead to many interesting discussions during the conference on rule-based vs deep learning approaches, their respective benefits in industrial settings, and their potential linking points. -->
+                        </details>
+                        <br>
+                        <br>
+                     </li>
+                  </ul>
+                  <h3 id="workshopposter-publications"><u style="text-underline-offset: 0.5em;text-decoration: underline; text-decoration-color: hsl(240,69%,61%);">Workshop/Poster publications</u></h3>
+                  <ul>
+                     <li>
+                        <a href="#" target="_blank">Title</a>
+                        <br>
+                        <div class="authors">Himanshu Goyal, Sudipta Saha</div>
+                        In <i>International Conference on XYZ</i>
+                        <br>
+                        <br>
+                     </li>
+                  </ul>
+
+                  <h1 class="page-heading">Thesis</h1>
+                  <h3 id="conference-publications">Undergraduate Thesis</h3>
+                  <ul>
+                     <li>
+                        <a href="https://move47.github.io/assets/Bachelor_Thesis.pdf" target="_blank">Scalable Practical Byzantine Consensus in Wireless Sensor Networks</a>
+                        <br>
+                        <div class="authors">Himanshu Goyal</div>
+                        <br>
+                        <em>(under guidance of <a href="https://www.iitbbs.ac.in/profile-print.php?furl=sudipta">
+                                 Prof. Sudipta Saha</a>)</em><br>IIT Bhubaneswar <em>(2017-2021)</em>
+                        <br>
+                        <br>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </main>
+         </div>
+         </div>
+      
+      
+      <div id="footer-placeholder">
+      </div>
+   </body>
+</html>

@@ -6,13 +6,8 @@
 
         <meta content="width=device-width, initial-scale=1" name="viewport" />
         <link rel="stylesheet" href="assets/css/styles.css">
-        <script src="https://code.iconify.design/2/2.1.2/iconify.min.js"></script>
-        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
-        crossorigin="anonymous">
+
         <!-- =====BOX ICONS===== -->
-        <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
-        <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.8.0/css/all.css">
-        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
         <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
         <title>Himanshu</title>
         <script src="https://code.jquery.com/jquery-1.10.2.js"></script>  
@@ -26,6 +21,62 @@
       $("#footer-placeholder").load("footer.html");
     });
     </script>
+    <style>
+        
+/* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 1rem 80px;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 30%;
+  padding: 20px;
+}
+
+/* Main column */
+.main {
+  flex: 70%;
+  background-color: white;
+  padding-left: 80px;
+  padding-top: 60px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #fff;
+  width: 100%;
+  border-radius: 50px;
+  
+}
+
+.centerSection {
+  padding: 20px;
+  text-align: center;
+  
+}
+@media screen and (max-width: 912px) {
+  .row {   
+    flex-direction: column;
+  }
+
+  .side{
+    padding:1rem 20px;
+  }
+
+  .about__container{
+    margin-top: 0%;
+  }
+  .main{
+    padding: 20px;
+  }
+}
+
+    </style>
     </head>
     <body>
         <!--===== HEADER =====-->
@@ -37,48 +88,49 @@
             
 
             <!--===== ABOUT =====-->
-            <section class="about section " id="about">
-                
-
-                <div class="about__container bd-grid" style="margin-top: 5rem;">
-                    <div class="about__img">
-                        <img class="item about__blob-img" src="assets/img/him2.jpg" alt="Himanshu"> 
+            <section class="about section about__container " id="about">
+                <div class="row" style="margin-top: 5rem;">
+                    <div class="side">
+                      <img src="./assets/img/him2.jpg" style="background: #dde1e7;
+                      border-radius: 6px;
+                      box-shadow: -3px -3px 7px #ffffffb2, 
+                       3px 3px 5px rgba(94, 104, 121, 0.945);" alt="" class="fakeimg">                     
                     </div>
-                    
-                    <div>
-                        <h2 class="about__subtitle">Hi, I'm Himanshu Goyal</h2>
-                        <h4 class="home__subtitle"> <a href="../assets/name.mp3" target="_blank">(How to pronounce my name)</a></h4>
-                        <p class="about__text">
-                            I am a Dual Degree Student at <a href="https://www.iitbbs.ac.in/"> Indian Institute of Technology Bhubaneswar</a> majoring in Computer Science.
-                     Currently, I am focussing on building large scale decentralized IoT/WSNs systems which embodies Trust, Security and Privacy guarantees.
-                     I am being advised by <a href="https://www.iitbbs.ac.in/profile.php/sudipta/" target="_blank">Dr. Sudipta Saha</a>. I am also closely associated with <a href="https://sites.google.com/iitbbs.ac.in/dssrg">Decentralized and Smart Systems Research Group (DSSRG)</a> at IIT Bhubaneswar.
-    
+                    <div class="main">
+                        <h2 class="about__subtitle fakeimg">Hi, I'm Himanshu Goyal</h2>
+                        <h4 class="home__subtitle fakeimg" > <a href="../assets/name.mp3" target="_blank">(How to pronounce my name)</a></h4>
+                      <div class="fakeimg" >
+                        <p>I am a Dual Degree Student at <a href="https://www.iitbbs.ac.in/"> Indian Institute of Technology Bhubaneswar</a> majoring in Computer Science.
+                            Currently, I am focussing on building large scale decentralized IoT/WSNs systems which embodies Trust, Security and Privacy guarantees.
+                            I am being advised by <a href="https://www.iitbbs.ac.in/profile.php/sudipta/" target="_blank">Dr. Sudipta Saha</a>. I am also closely associated with <a href="https://sites.google.com/iitbbs.ac.in/dssrg">Decentralized and Smart Systems Research Group (DSSRG)</a> at IIT Bhubaneswar.
+           
                         </p>  
-                        <div>
-                            <p class="about__text desc">
-                                <div class="scramble__container">
-                                 I have worked on several disciplines ranging from 
-                                &nbsp;<a class="scramble__text" id="tst"></a>
-                            </div> </p>  
-                        </div>
-                        
-                        
-                        <div class="cvcontact">
-                            <a href="#footer" class="button button--flex">
-                                Contact Me<i class="uil uil-message button__icon"></i>
-                            </a>
-                            <a href="cv.html" class="cvlink button button--flex">
-                                CV/Resume <i class="uil uil-file-alt button__icon"></i>
-                            </a>
-                        </div>   
+                               <div>
+                                   <p class="about__text ">
+                                       <div class="scramble__container">
+                                        I have worked on several disciplines ranging from 
+                                       &nbsp;<a class="scramble__text" id="tst"></a>
+                                   </div> </p>  
+                               </div>
 
-                        
-                    </div>  
-                    
+                               <div class="cvcontact">
+                                <a href="#footer" class="button button--flex">
+                                    Contact Me<i class="uil uil-message button__icon"></i>
+                                </a>
+                                <a href="cv.html" class="cvlink button button--flex">
+                                    CV/Resume <i class="uil uil-file-alt button__icon"></i>
+                                </a>
+                            </div> 
+                    </div>
+                      
+                    </div>
+                  </div>
+
+                
                                                    
                 </div>
 
-                <div class="about__container " style="margin-top: -2rem; justify-content: center;">
+                <div class="centerSection " >
                     
                     <span class="phrase__subtitle">Verily, I truly enjoy applied cryptography in particular.</span>
         
@@ -232,84 +284,3 @@ setInterval(function() {
 
     </body>
 </html>
-<!--  
-    <ul>
-                                <li>
-                                    <span>May 2020</span>
-                                    <div class="content">
-                                        <p>
-                                            Started remote internship with  <a href="http://www.chayansarkar.com/">Chayan Sarkar</a> at TCS Research &amp; Innovation.
-                                        </p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <span>Apr 2020</span>
-                                    <div class="content">
-                                        <p>
-                                        <s> Summer Internship with <a href="https://www.encrypto.cs.tu-darmstadt.de/team_encrypto/thomas_schneider/index.en.jsp">ENCRYPTO Group</a> at TU Darmstadt, Germany</s>(Cancelled due to Covid outbreak).
-                                        </p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <span>Mar 2020</span>
-                                    <div class="content">
-                                        <p>
-                                            Participated at Smart India Hackathon(SIH) 2020.
-            
-                                        </p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <span>Dec 2019</span>
-                                    <div class="content">
-                                        
-                                        <p>
-                                            Secured Bronze medal at 8th Inter-IIT Tech meet in <i> Outreach Exercise for New Technology Ideas in TV Audience Measurement.</i>
-                                        </p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <span>May 2019</span>
-                                    <div class="content">
-                                        <p>
-                                            Started Summer Internship at  <a href="https://cnerg-iitkgp.github.io/">CNERG IIT Kharagpur</a> on <i>Characterization of Workload in multi-tier cloud application</i> under the guidance of <a href="http://cse.iitkgp.ac.in/~sandipc/">Sandeep Chakraborty</a>.
-                                        </p>
-                                    </div>
-                                </li>
-                                
-                                <li>
-                                    <span>Sep 2018</span>
-                                    <div class="content">
-                                        <p>
-                                            Started Computer Science Coursework</td></tr>
-                                        </p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <span>May 2018</span>
-                                    <div class="content">
-                                        
-                                        <p>
-                                            Transferred from 4-year Metallurgical Programme to 5-year Dual Degree(B.tech+M.tech) in Computer Science Engineering(1 out of entire batch).</td></tr>
-                                        </p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <span>Jul 2017</span>
-                                    <div class="content">
-                                        <p>
-                                            Successfully passed both JEE Main and JEE Advance examinations and secured an admission at <a href="https://www.iitbbs.ac.in/"> IIT Bhubaneswar </a> in its 4-year undergraduate programme in Metallurgical and Materials Engineering.
-                                        </p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <span>May 2016</span>
-                                    <div class="content">
-                                        <p>
-                                            Got a direct admission offer from <a href="https://www.bits-pilani.ac.in/">BITS-Pilani </a> on the basis of excellent Intermediate academic performance at <a href="https://www.birlaschoolpilani.edu.in/">Birla School Pilani </a>.
-                                        </p>
-                                    </div>
-                                </li>
-            
-                            </ul>
-                         -->
